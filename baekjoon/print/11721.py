@@ -1,5 +1,5 @@
 N = input()
-
+"""
 a = int(len(N)/10)
 li = []
 for i in range(a+1):
@@ -7,3 +7,7 @@ for i in range(a+1):
 
 for i in li:
     print(i)
+"""
+
+str1 = ""
+str1.
