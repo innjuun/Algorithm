@@ -48,8 +48,9 @@ def dfs(x, y, cnt, a, b):
             if li[nx][ny] == li[x][y]:
 
                 if check[nx][ny] == "0":
-                    continue
-                elif li[nx][ny] == li[a][b]:
+                    print(cnt)
+                    dfs(nx, ny, cnt + 1, a, b)
+                elif check[nx][ny] == li[a][b]:
                     dfs(nx, ny, cnt + 1, a, b)
 
 

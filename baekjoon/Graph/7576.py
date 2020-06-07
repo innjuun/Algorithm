@@ -37,8 +37,7 @@ for i in range(n):
         if check[i][j] == -1 and li[i][j] == 1:
             pass
 bfs()
-print(li)
-print(check)
+
 
 ans = 0
 for i in range(n):

@@ -14,5 +14,5 @@ def go(s, goal):
 
 for i in range(T):
     n = int(input())
-
+    a = []
     print(go(0, n))
