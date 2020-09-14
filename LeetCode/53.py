@@ -10,7 +10,6 @@ def maxSubArray(nums: List[int]) -> int:
             memoi_list[i] = memoi_list[i-1] + nums[i]
         else:
             memoi_list[i] = nums[i]
-    print(memoi_list)
     return max(memoi_list)
 
 print(maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
