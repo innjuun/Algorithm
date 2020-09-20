@@ -1,6 +1,23 @@
+# brute force
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         for i in range(len(nums)):
             for j in range(i + 1, len(nums)):
                 if nums[i] + nums[j] == target:
                     return [i, j]
+
+
+# two-pass hash table
+class Solution:
+    # @return a tuple, (index1, index2)
+    # 8:42
+    def twoSum(self, nums, target):
+        hash_table = {}
+        ans = []
+        for i in range(len(nums)):
+            hash_table[nums[i]] = i
+        for index, value in enumerate(nums):
+            result = target - value
+            hash_index = hash_table.get(result)
+            if hash_index and hash_index != index:
+                return [index, hash_index]
