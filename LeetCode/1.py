@@ -21,3 +21,16 @@ class Solution:
             hash_index = hash_table.get(result)
             if hash_index and hash_index != index:
                 return [index, hash_index]
+
+
+# one-pass hash table
+class Solution:
+    # @return a tuple, (index1, index2)
+    # 8:42
+    def twoSum(self, nums, target):
+        buff_dict = {}
+        for i in range(len(nums)):
+            if nums[i] in buff_dict.keys():
+                return [i, buff_dict[nums[i]]]
+            else:
+                buff_dict[target - nums[i]] = i
