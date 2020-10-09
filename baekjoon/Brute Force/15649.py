@@ -22,7 +22,7 @@ def go(index, n, m):
 go(0, N, M)
 """
 
-
+"""
 n, m = map(int, input().split())
 
 check = [False] * (n + 1)
@@ -48,3 +48,25 @@ def go(index, n, m):
 
 
 go(0, n, m)
+"""
+
+
+n, m = map(int, input().split())
+
+check = [False] * (n+1)
+permut = [0] * m
+
+def go(index):
+    if index == m:
+        print(*permut)
+        return
+    for i in range(1, n+1):
+        if check[i]:
+            continue
+        check[i] = True
+        permut[index] = i
+        go(index + 1)
+        check[i] = False
+        permut[index] = 0
+
+go(0)
