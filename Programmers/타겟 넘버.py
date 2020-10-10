@@ -18,7 +18,7 @@
 # solution([1, 1, 1, 1, 1], 3)
 
 
-# better solution, not using global variable
+# better solution, not using f
 def solution(numbers, target):
     answer = dfs(0, numbers, target, 0)
     return answer
