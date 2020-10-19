@@ -4,6 +4,11 @@ for _ in range(T):
     n, m = map(int, input().split())
     a = list(map(int, input().split()))
     checked = [[0] * m for _ in range(n)]
+    # checked = []
+    # index = 0
+    # for i in range(n):
+    #     checked.append(a[index:index+m])
+    #     index += m
     for i in range(len(a)):
         checked[(i // m)][(i % m)] = a[i]
     
@@ -16,4 +21,4 @@ for _ in range(T):
                 tmp = max(tmp, checked[i+1][j-1])
             checked[i][j] = max(tmp + checked[i][j], checked[i][j])
 
-print(max([max(i) for i in checked]))
+print(max([i[-1] for i in checked]))
