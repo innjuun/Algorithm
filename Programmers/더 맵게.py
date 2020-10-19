@@ -7,8 +7,6 @@ def solution(scoville, K):
         second_hot = heapq.heappop(scoville)
         if hot >= K:
             return answer
-        elif hot + (second_hot * 2) >= K:
-            return answer + 1
         heapq.heappush(scoville, hot + (second_hot * 2))
         answer += 1
     if heapq.heappop(scoville) >= K:
