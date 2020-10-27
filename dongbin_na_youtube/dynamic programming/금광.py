@@ -21,4 +21,4 @@ for _ in range(T):
                 tmp = max(tmp, checked[i+1][j-1])
             checked[i][j] = max(tmp + checked[i][j], checked[i][j])
 
-print(max([i[-1] for i in checked]))
+print(max([i[-1] for i in checked] q    ))
