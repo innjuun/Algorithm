@@ -28,28 +28,22 @@
 #         # print(dp)
 #         return dp[len(grid)-1][len(grid[0])-1]
 
-from collections import deque
-INF = int(1e9)
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         ROW = len(grid)
         COL = len(grid[0])
         if ROW == COL == 1:
             return grid[0][0]
-        dp = [[INF for _ in range(COL)] for _ in range(ROW)]
+        dp = [[0 for _ in range(COL)] for _ in range(ROW)]
         
-        dp[0][0] = grid[0][0]
         for i in range(ROW):
             for j in range(COL):
-                if i == 0 and j == 0:
-                    continue
+                dp[i][j] = grid[i][j]
                 if i == 0:
-                    dp[i][j] = dp[i][j-1] + grid[i][j]
+                    dp[i][j] += dp[i][j-1]
                 elif j == 0:
-                    dp[i][j] = dp[i-1][j] + grid[i][j]
+                    dp[i][j] += dp[i-1][j] 
                 else:
-                    dp[i][j] = min(dp[i][j-1], dp[i-1][j]) + grid[i][j]
-                # print(i,j, dp)
-                    
-                
+                    dp[i][j] += min(dp[i][j-1], dp[i-1][j])
+
         return (dp[ROW-1][COL-1])
