@@ -52,5 +52,5 @@ def partition(list, start, end):
     return pivot
 
 
-li = [8, 7, 6, 5, 4, 3, 2, 1]
+li = [0,7,2,5,3]
 print(quickSort(li, 0, len(li) - 1))
