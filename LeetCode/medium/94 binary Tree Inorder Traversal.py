@@ -4,6 +4,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+# using recursion
 class Solution:
     def inorderTraversal(self, root: TreeNode) -> List[int]:
         ans = []
@@ -15,3 +17,35 @@ class Solution:
             inner(root.right)
         inner(root)
         return ans
+    
+    
+# iterative solution
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def inorderTraversal(self, root: TreeNode) -> List[int]:
+        stack = []
+        res = []
+        
+
+        node = root
+        stack.append(node)
+        while stack:
+            
+            while node is not None:    
+                stack.append(node.left)
+                node = node.left
+            node = stack.pop()
+            if node is not None:
+                res.append(node.val)
+       
+                stack.append(node.right)
+                node = node.right
+            
+            
+        return res
