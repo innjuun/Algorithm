@@ -49,3 +49,24 @@ class Solution:
             
             
         return res
+
+#optimize
+
+class Solution:
+    def inorderTraversal(self, root: TreeNode) -> List[int]:
+        stack = []
+        res = []
+        
+
+        node = root
+        while stack or node:
+            
+            while node:    
+                stack.append(node)
+                node = node.left
+            node = stack.pop()
+            res.append(node.val)
+            node = node.right
+
+            
+        return res
