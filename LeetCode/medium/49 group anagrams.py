@@ -4,8 +4,7 @@ class Solution:
         for s in strs:
             ordered_s = ''.join(sorted(s))
             if ordered_s in dic:
-                dic[ordered_s] = dic[ordered_s] + [s]
-                print(dic[ordered_s])
+                dic[ordered_s].append(s)
             else:
                 dic[ordered_s] = [s]
         ans = []
