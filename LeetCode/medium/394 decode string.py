@@ -10,7 +10,7 @@ class Solution:
                 count = count * 10 + int(i)
                 
             elif i == "[":
-                stack.append((current_string, count))
+                stack.app end((current_string, count))
                 count = 0
                 current_string = ""
 

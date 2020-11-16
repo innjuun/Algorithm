@@ -6,7 +6,7 @@ class Solution:
             # print(stack)
             if sum(stack) > target:
                 return
-            if sum(stack) == target:
+            if sum(stack) == target:   
                 answer.append(stack[:])
             
             for i in range(start, len(candidates)):
