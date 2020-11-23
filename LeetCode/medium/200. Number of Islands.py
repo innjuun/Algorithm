@@ -20,20 +20,25 @@ class Solution:
             for i in range(4):
                 dfs(x + dx[i], y + dy[i])
             
+        def bfs(queue):
+            while queue:
+                x, y = queue.popleft()
+                for i in range(4):
+                    if is_valid(x + dx[i], y + dy[i]) and grid[x+dx[i]][y+dy[i]] == "1":
+                        queue.append((x+dx[i], y+dy[i]))
+                        grid[x+dx[i]][y+dy[i]] = "0"
+                        
                 
                 
+        queue = deque()
         for i in range(len(grid)):
             for j in range(len(grid[0])):
-                # print(grid[i][j], visited[i][j])
+                
                 if grid[i][j] == "1":
-                    
-                    dfs(i, j)
+                    queue.append((i, j))
+                    bfs(queue)
                     answer += 1
-                    print(grid)
-        # print(visited)
+                    
+        
 
         return answer
-            
-li = [["1","1","1","1","0"],["1","1","0","1","0"],["1","1","0","0","0"],["0","0","0","0","0"]]
-a = Solution()
-a.numIslands(li)
