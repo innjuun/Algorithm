@@ -34,6 +34,7 @@ class Solution:
         for i in range(len(grid)):
             for j in range(len(grid[0])):
                 
+         
                 if grid[i][j] == "1":
                     queue.append((i, j))
                     bfs(queue)
@@ -42,3 +43,7 @@ class Solution:
         
 
         return answer
+    
+li = [["1","1","1","1","0"],["1","1","0","1","0"],["1","1","0","0","0"],["0","0","0","0","0"]]
+a = Solution()
+a.numIslands(li)
