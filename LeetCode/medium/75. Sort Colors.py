@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         
@@ -16,3 +17,7 @@ class Solution:
             
             else:
                 index += 1
+                
+a = Solution()
+
+a.sortColors([2,0,1])
