@@ -39,3 +39,26 @@ class Solution:
             stack.append(i)
         
         return volume
+    
+# two pointer
+
+class Solution:
+    def trap(self, height: List[int]) -> int:
+        
+        start = 0
+        end = len(height) - 1
+        left_max = 0
+        right_max = 0
+        answer = 0
+        while start <= end:
+            print(start, end, answer)
+            if height[start] <= height[end]:
+                left_max = max(left_max, height[start])
+                answer += left_max - height[start]
+                start += 1
+            else:
+                right_max = max(right_max, height[end])
+                answer += right_max - height[end]
+                end -= 1
+                
+        return answer
