@@ -13,3 +13,15 @@ class Solution:
 
 
 # helped from solution, need to be re-solved
+class Solution:
+    def partitionLabels(self, S: str) -> List[int]:
+        lasts = {c: i for i, c in enumerate(S)}
+        
+        partition = 0
+        answer = [0]
+        for i, c in enumerate(S):
+            partition = max(partition, lasts[c])
+            if i == partition:
+                answer.append(i - sum(answer) + 1)
+        answer.pop(0)
+        return answer
