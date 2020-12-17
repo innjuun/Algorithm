@@ -18,10 +18,10 @@ class Solution:
         lasts = {c: i for i, c in enumerate(S)}
         
         partition = 0
-        answer = [0]
+        answer = []
         for i, c in enumerate(S):
             partition = max(partition, lasts[c])
             if i == partition:
                 answer.append(i - sum(answer) + 1)
-        answer.pop(0)
+
         return answer
