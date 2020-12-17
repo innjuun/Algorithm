@@ -1,6 +1,8 @@
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
         summ = sum(nums)
+        if summ % 2 != 0:
+            return False
         self.answer = False
         self.totals = {}
         def dfs(position, total):
