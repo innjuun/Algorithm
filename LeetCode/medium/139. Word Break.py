@@ -36,11 +36,6 @@ class Solution:
             return False
         word_dict = set(wordDict)
         self.cache = {}
-        if len(s) == 1:
-            if "".join(word_dict) == s:
-                return True
-            else:
-                return False
 
         def dfs(s, index):
             
