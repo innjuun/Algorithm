@@ -8,6 +8,7 @@ def solution(p):
 
 
 def dfs(v):
+    
     for i in range(1, len(v) + 1):
         if is_balanced(v[:i]):
             concat = dfs(v[i:]) or ''
