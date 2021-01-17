@@ -2,7 +2,6 @@ import os
 import requests
 from bs4 import BeautifulSoup
 
-
 def crawler(url):
     py_files = []
     try:
@@ -24,7 +23,9 @@ def crawler(url):
         current_directory = url.split('innjuun/')[-1]
         f.write("### " + current_directory + '\n')
         for link in py_files:
-            f.write('https://github.com/' + link + '\n')
+            unquoted_filename = requests.utils.unquote(os.path.splitext(link.split('/')[-1])[0])
+            f.write('+ [' + unquoted_filename + ']')
+            f.write('[https://github.com/' + link + ']\n')
         f.close()
     
     for repo in repositories:
@@ -36,5 +37,5 @@ if __name__ == "__main__":
     if os.path.isfile("README.md"):
         os.remove('README.md')
     with open('README.md', 'a') as f:
-        f.write("## Algorithm study repository. This README file made automatically by crawler\n")
+        f.write("# Algorithm study repository.\n =============\n## This README file made automatically by crawler\n")
     crawler("https://github.com/innjuun/Algorithm")
