@@ -22,7 +22,7 @@ def crawler(url):
     with open('README.md', 'a') as f:
         
         current_directory = url.split('innjuun/')[-1]
-        f.write("#" + current_directory + '\n')
+        f.write("# " + current_directory + '\n')
         for link in py_files:
             f.write('https://github.com/' + link + '\n')
         f.close()
