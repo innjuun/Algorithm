@@ -1,11 +1,11 @@
-# Algorithm study repository. This README file made automatically by crawler
-## Algorithm
+## Algorithm study repository. This README file made automatically by crawler
+### Algorithm
 https://github.com//innjuun/Algorithm/blob/master/repository_crawler.py
 https://github.com//innjuun/Algorithm/blob/master/%EC%97%B0%EC%8A%B5%EC%9E%A5.py
-## Algorithm/tree/master/.vscode
-## Algorithm/blob/master/.vscode/launch.json
-## Algorithm/blob/master/.vscode/settings.json
-## Algorithm/tree/master/Data%20structure
+### Algorithm/tree/master/.vscode
+### Algorithm/blob/master/.vscode/launch.json
+### Algorithm/blob/master/.vscode/settings.json
+### Algorithm/tree/master/Data%20structure
 https://github.com//innjuun/Algorithm/blob/master/Data%20structure/LinkedList.py
 https://github.com//innjuun/Algorithm/blob/master/Data%20structure/bubbleSort.py
 https://github.com//innjuun/Algorithm/blob/master/Data%20structure/insertionSort.py
@@ -13,10 +13,10 @@ https://github.com//innjuun/Algorithm/blob/master/Data%20structure/mergeSort.py
 https://github.com//innjuun/Algorithm/blob/master/Data%20structure/quickSort.py
 https://github.com//innjuun/Algorithm/blob/master/Data%20structure/search.py
 https://github.com//innjuun/Algorithm/blob/master/Data%20structure/selectionSort.py
-## Algorithm/tree/master/LeetCode
+### Algorithm/tree/master/LeetCode
 https://github.com//innjuun/Algorithm/blob/master/LeetCode/283.py
 https://github.com//innjuun/Algorithm/blob/master/LeetCode/test.py
-## Algorithm/tree/master/LeetCode/easy
+### Algorithm/tree/master/LeetCode/easy
 https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/1.py
 https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/101%20Symmetric%20Tree.py
 https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/104.py
@@ -44,9 +44,9 @@ https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/69%20sqrt.py
 https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/70.py
 https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/704%20%20binary%20search.py
 https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/876.%20Middle%20of%20the%20Linked%20List.py
-## Algorithm/tree/master/LeetCode/hard
+### Algorithm/tree/master/LeetCode/hard
 https://github.com//innjuun/Algorithm/blob/master/LeetCode/hard/42.%20Trapping%20Rain%20Water.py
-## Algorithm/tree/master/LeetCode/medium
+### Algorithm/tree/master/LeetCode/medium
 https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/101%20symmetric%20tree.py
 https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/102.%20Binary%20Tree%20Level%20Order%20Traversal.py
 https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/11.%20Container%20With%20Most%20Water.py
@@ -90,7 +90,7 @@ https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/763.py
 https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/78%20subsets.py
 https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/94%20binary%20Tree%20Inorder%20Traversal.py
 https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/test.py
-## Algorithm/tree/master/Programmers
+### Algorithm/tree/master/Programmers
 https://github.com//innjuun/Algorithm/blob/master/Programmers/124%20%EB%82%98%EB%9D%BC%EC%9D%98%20%EC%88%AB%EC%9E%90.py
 https://github.com//innjuun/Algorithm/blob/master/Programmers/K%EB%B2%88%EC%A7%B8%EC%88%98.py
 https://github.com//innjuun/Algorithm/blob/master/Programmers/N%EC%9C%BC%EB%A1%9C%20%ED%91%9C%ED%98%84.py
@@ -117,14 +117,14 @@ https://github.com//innjuun/Algorithm/blob/master/Programmers/%ED%81%AC%EB%A0%88
 https://github.com//innjuun/Algorithm/blob/master/Programmers/%ED%81%B0%20%EC%88%98%20%EB%A7%8C%EB%93%A4%EA%B8%B0.py
 https://github.com//innjuun/Algorithm/blob/master/Programmers/%ED%83%80%EA%B2%9F%20%EB%84%98%EB%B2%84.py
 https://github.com//innjuun/Algorithm/blob/master/Programmers/%ED%94%84%EB%A6%B0%ED%84%B0.py
-## Algorithm/tree/master/Programmers/test
+### Algorithm/tree/master/Programmers/test
 https://github.com//innjuun/Algorithm/blob/master/Programmers/test/2.py
-## Algorithm/tree/master/baekjoon
+### Algorithm/tree/master/baekjoon
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/1541(%EC%9E%83%EC%96%B4%EB%B2%84%EB%A6%B0%20%EA%B4%84%ED%98%B8).py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/scan_hanyang1.py
-## Algorithm/tree/master/baekjoon/.vscode
-## Algorithm/blob/master/baekjoon/.vscode/settings.json
-## Algorithm/tree/master/baekjoon/Brute%20Force
+### Algorithm/tree/master/baekjoon/.vscode
+### Algorithm/blob/master/baekjoon/.vscode/settings.json
+### Algorithm/tree/master/baekjoon/Brute%20Force
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Brute%20Force/10819.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Brute%20Force/10971.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Brute%20Force/10972.py
@@ -159,7 +159,7 @@ https://github.com//innjuun/Algorithm/blob/master/baekjoon/Brute%20Force/6603.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Brute%20Force/9095.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Brute%20Force/test.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Brute%20Force/test1.py
-## Algorithm/tree/master/baekjoon/Dynamic%20Programming
+### Algorithm/tree/master/baekjoon/Dynamic%20Programming
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Dynamic%20Programming/10844.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Dynamic%20Programming/11052.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Dynamic%20Programming/11053.py
@@ -187,7 +187,7 @@ https://github.com//innjuun/Algorithm/blob/master/baekjoon/Dynamic%20Programming
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Dynamic%20Programming/2225.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Dynamic%20Programming/9095.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Dynamic%20Programming/9465.py
-## Algorithm/tree/master/baekjoon/Graph
+### Algorithm/tree/master/baekjoon/Graph
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Graph/11724.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Graph/1260.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Graph/13023.py
@@ -199,7 +199,7 @@ https://github.com//innjuun/Algorithm/blob/master/baekjoon/Graph/4963.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Graph/7562.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Graph/7576.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Graph/test.py
-## Algorithm/tree/master/baekjoon/Greedy%20Algorithm
+### Algorithm/tree/master/baekjoon/Greedy%20Algorithm
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/1049(%EA%B8%B0%ED%83%80%EC%A4%84).py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/10610(30).py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/1080(%ED%96%89%EB%A0%AC).py
@@ -212,7 +212,7 @@ https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/AT
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/%EB%8F%99%EC%A0%84%200.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/%ED%99%80%EC%88%98%EB%A7%8C%20%EB%8D%94%ED%95%98%EA%B8%B0.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/%ED%9A%8C%EC%9D%98%EC%8B%A4%EB%B0%B0%EC%A0%95.py
-## Algorithm/tree/master/baekjoon/Stack%2C%20Queue
+### Algorithm/tree/master/baekjoon/Stack%2C%20Queue
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Stack%2C%20Queue/10799.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Stack%2C%20Queue/10845.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Stack%2C%20Queue/1158.py
@@ -223,7 +223,7 @@ https://github.com//innjuun/Algorithm/blob/master/baekjoon/Stack%2C%20Queue/1741
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Stack%2C%20Queue/1874.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Stack%2C%20Queue/9012.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/Stack%2C%20Queue/9093.py
-## Algorithm/tree/master/baekjoon/math
+### Algorithm/tree/master/baekjoon/math
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/math/10872.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/math/1373.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/math/1676.py
@@ -231,7 +231,7 @@ https://github.com//innjuun/Algorithm/blob/master/baekjoon/math/17087.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/math/1929.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/math/2609.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/math/9613.py
-## Algorithm/tree/master/baekjoon/print
+### Algorithm/tree/master/baekjoon/print
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/print/10991.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/print/10992.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/print/11720.py
@@ -244,25 +244,25 @@ https://github.com//innjuun/Algorithm/blob/master/baekjoon/print/2442.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/print/2445.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/print/2446.py
 https://github.com//innjuun/Algorithm/blob/master/baekjoon/print/2522.py
-## Algorithm/tree/master/dongbin_na_youtube
-## Algorithm/tree/master/dongbin_na_youtube/dynamic%20programming
+### Algorithm/tree/master/dongbin_na_youtube
+### Algorithm/tree/master/dongbin_na_youtube/dynamic%20programming
 https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/dynamic%20programming/1%EB%A1%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0.py
 https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/dynamic%20programming/%EA%B0%9C%EB%AF%B8%20%EC%A0%84%EC%82%AC.py
 https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/dynamic%20programming/%EA%B8%88%EA%B4%91.py
 https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/dynamic%20programming/%EB%B3%91%EC%82%AC%20%EB%B0%B0%EC%B9%98%ED%95%98%EA%B8%B0(%EA%B0%80%EC%9E%A5%20%EA%B8%B4%20%EB%B6%80%EB%B6%84%EC%88%98%EC%97%B4).py
 https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/dynamic%20programming/%ED%9A%A8%EC%9C%A8%EC%A0%81%EC%9D%B8%20%ED%99%94%ED%8F%90%20%EA%B5%AC%EC%84%B1.py
-## Algorithm/tree/master/dongbin_na_youtube/graph
+### Algorithm/tree/master/dongbin_na_youtube/graph
 https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/graph/kruskal.py
 https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/graph/topology_sort.py
-## Algorithm/tree/master/dongbin_na_youtube/%EC%B5%9C%EB%8B%A8%EA%B2%BD%EB%A1%9C%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98
+### Algorithm/tree/master/dongbin_na_youtube/%EC%B5%9C%EB%8B%A8%EA%B2%BD%EB%A1%9C%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98
 https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/%EC%B5%9C%EB%8B%A8%EA%B2%BD%EB%A1%9C%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/dijkstra.py
 https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/%EC%B5%9C%EB%8B%A8%EA%B2%BD%EB%A1%9C%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/dijkstra_better.py
 https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/%EC%B5%9C%EB%8B%A8%EA%B2%BD%EB%A1%9C%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EB%AF%B8%EB%9E%98%20%EB%8F%84%EC%8B%9C.py
 https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/%EC%B5%9C%EB%8B%A8%EA%B2%BD%EB%A1%9C%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%A0%84%EB%B3%B4.py
-## Algorithm/tree/master/swexpert
+### Algorithm/tree/master/swexpert
 https://github.com//innjuun/Algorithm/blob/master/swexpert/4831.py
 https://github.com//innjuun/Algorithm/blob/master/swexpert/4834.py
 https://github.com//innjuun/Algorithm/blob/master/swexpert/4835.py
 https://github.com//innjuun/Algorithm/blob/master/swexpert/4836.py
 https://github.com//innjuun/Algorithm/blob/master/swexpert/4837.py
-## Algorithm/blob/master/README.md
+### Algorithm/blob/master/README.md

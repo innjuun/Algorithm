@@ -22,7 +22,7 @@ def crawler(url):
     with open('README.md', 'a') as f:
         
         current_directory = url.split('innjuun/')[-1]
-        f.write("## " + current_directory + '\n')
+        f.write("### " + current_directory + '\n')
         for link in py_files:
             f.write('https://github.com/' + link + '\n')
         f.close()
@@ -36,5 +36,5 @@ if __name__ == "__main__":
     if os.path.isfile("README.md"):
         os.remove('README.md')
     with open('README.md', 'a') as f:
-        f.write("# Algorithm study repository. This README file made automatically by crawler\n")
+        f.write("## Algorithm study repository. This README file made automatically by crawler\n")
     crawler("https://github.com/innjuun/Algorithm")
