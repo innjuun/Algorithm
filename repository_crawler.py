@@ -37,5 +37,5 @@ if __name__ == "__main__":
     if os.path.isfile("README.md"):
         os.remove('README.md')
     with open('README.md', 'a') as f:
-        f.write("# Algorithm study repository.\n =============\n## This README file made automatically by crawler\n")
+        f.write("# Algorithm study repository.\n## This README file made automatically by crawler\n")
     crawler("https://github.com/innjuun/Algorithm")
