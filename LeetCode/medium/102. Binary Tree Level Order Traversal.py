@@ -1,4 +1,5 @@
 from collections import deque
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -13,7 +14,7 @@ class Solution:
         queue.append((root, depth))
         stack = [[] for _ in range(50000)]
         while queue:
-            
+
             node, depth = queue.popleft()
             if node is not None:
                 queue.append((node.left, depth + 1))
@@ -21,11 +22,12 @@ class Solution:
                 stack[depth].append(node.val)
         # print(stack)
         return [i for i in stack if i != []]
-    
+
 
 # refactor code
 
 from collections import deque
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -34,7 +36,7 @@ from collections import deque
 #         self.right = right
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
-        
+
         answer = []
         if root is None:
             return answer

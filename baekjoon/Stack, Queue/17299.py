@@ -16,4 +16,4 @@ for i in range(1, len(li)):
 
 
 for a in ans:
-    print(a, end=' ')
+    print(a, end=" ")

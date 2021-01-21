@@ -39,4 +39,6 @@ def solution(phone_book):
             if temp in hash_map and temp != phone_number:
                 return False
     return True
+
+
 solution([119, 97674223, 1195524421])

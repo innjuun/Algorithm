@@ -1,14 +1,16 @@
 from collections import deque
+
+
 def solution(begin, target, words):
     if target not in words:
         return 0
     queue = deque()
     checked = [0] * len(words)
-    first= True
+    first = True
     queue.append(begin)
     while queue:
-        num =queue.popleft()
-        
+        num = queue.popleft()
+
         for w in range(len(words)):
             cnt = 0
             if checked[w] == 0:
@@ -23,7 +25,6 @@ def solution(begin, target, words):
                     queue.append(words[w])
         first = False
         print(queue)
-        
-    
-    print(checked) 
+
+    print(checked)
     return checked[words.index(target)]

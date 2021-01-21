@@ -47,12 +47,13 @@ stack = []
 go(0, 0, -10, 10)
 """
 
+
 def check(index):
     s = 0
     for i in range(index, -1, -1):
         s += ans[i]
         if sign[i][index] == 0:
-            if s!= 0:
+            if s != 0:
                 return False
         elif sign[i][index] < 0:
             if s >= 0:
@@ -62,6 +63,7 @@ def check(index):
                 return False
     return True
 
+
 def go(index):
     if index == n:
         return True
@@ -69,10 +71,9 @@ def go(index):
         ans[index] = 0
 
 
-
 n = int(input())
 s = input()
-sign = [[0] *n for _ in range(n)]
+sign = [[0] * n for _ in range(n)]
 
 ans = [0] * n
 cnt = 0
@@ -84,7 +85,7 @@ for i in range(n):
             sign[i][j] = 1
         if s[cnt] == "-":
             sign[i][j] = -1
-        cnt +=1
+        cnt += 1
 
 
 go(0)

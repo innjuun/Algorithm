@@ -7,5 +7,5 @@ for i in range(N):
     for j in range(i):
         if li[j] < li[i]:
             checked[i] = max(checked[i], checked[j] + 1)
-    
+
 print(checked)

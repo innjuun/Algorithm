@@ -16,7 +16,7 @@ class Solution:
 class Solution:
     def partitionLabels(self, S: str) -> List[int]:
         lasts = {c: i for i, c in enumerate(S)}
-        
+
         partition = 0
         answer = []
         for i, c in enumerate(S):

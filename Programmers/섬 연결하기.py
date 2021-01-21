@@ -8,8 +8,9 @@ def solution(n, costs):
             union(parent, node1, node2)
             answer += cost
     # print(answer)
-        
+
     return answer
+
 
 def find_parent(parent, node):
     if parent[node] == node:
@@ -17,8 +18,10 @@ def find_parent(parent, node):
     parent[node] = find_parent(parent, parent[node])
     return parent[node]
 
+
 def is_connected(parent, node1, node2):
     return find_parent(parent, node1) == find_parent(parent, node2)
+
 
 def union(parent, node1, node2):
     node1_parent = find_parent(parent, node1)
@@ -27,5 +30,6 @@ def union(parent, node1, node2):
         parent[node2_parent] = node1_parent
     else:
         parent[node1_parent] = node2_parent
+
 
 solution(4, [[0, 1, 5], [1, 2, 3], [2, 3, 3], [3, 1, 2], [3, 0, 4]])

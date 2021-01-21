@@ -4,7 +4,7 @@ n, m = map(int, input().split())
 
 start = int(input())
 
-graph = [[] for i in range(n+1)]
+graph = [[] for i in range(n + 1)]
 
 visited = [False] * (n + 1)
 
@@ -19,7 +19,7 @@ def get_smallest_node():
     min_value = INF
     index = 0
 
-    for i in range(1, n+1):
+    for i in range(1, n + 1):
         if distance[i] < min_value and visited[i] == False:
             min_value = distance[i]
             index = i
@@ -29,14 +29,14 @@ def get_smallest_node():
 def dijkstra(start):
     distance[start] = 0
     visited[start] = True
-    
+
     for i, j in graph[start]:
         distance[i] = j
-    
-    for i in range(n-1):
+
+    for i in range(n - 1):
         now = get_smallest_node()
         visited[now] = True
-        
+
         for j, k in graph[now]:
             cost = distance[now] + k
             if cost < distance[j]:

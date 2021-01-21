@@ -28,6 +28,7 @@
 #         # print(dp)
 #         return dp[len(grid)-1][len(grid[0])-1]
 
+
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         ROW = len(grid)
@@ -35,15 +36,15 @@ class Solution:
         if ROW == COL == 1:
             return grid[0][0]
         dp = [[0 for _ in range(COL)] for _ in range(ROW)]
-        
+
         for i in range(ROW):
             for j in range(COL):
                 dp[i][j] = grid[i][j]
                 if i == 0:
-                    dp[i][j] += dp[i][j-1]
+                    dp[i][j] += dp[i][j - 1]
                 elif j == 0:
-                    dp[i][j] += dp[i-1][j] 
+                    dp[i][j] += dp[i - 1][j]
                 else:
-                    dp[i][j] += min(dp[i][j-1], dp[i-1][j])
+                    dp[i][j] += min(dp[i][j - 1], dp[i - 1][j])
 
-        return (dp[ROW-1][COL-1])
+        return dp[ROW - 1][COL - 1]

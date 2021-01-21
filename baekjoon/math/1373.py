@@ -13,5 +13,5 @@ for i in range(len(li)):
     if li[i] == "1":
         sum += mul
     print(mul, sum)
-    mul = mul*2
+    mul = mul * 2
 print(sum)

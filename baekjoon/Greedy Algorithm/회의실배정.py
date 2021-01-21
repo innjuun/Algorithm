@@ -16,8 +16,8 @@ case_list.sort()
 for i in case_list:
     i.reverse()
 
-count= 0
-start_time =0
+count = 0
+start_time = 0
 end_time = 0
 for i in case_list:
     if i[0] >= end_time:
@@ -26,4 +26,3 @@ for i in case_list:
         count += 1
 
 print(count)
-

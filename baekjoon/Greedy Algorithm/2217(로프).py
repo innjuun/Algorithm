@@ -1,5 +1,5 @@
 N = int(input())
-case_list = [0]*N
+case_list = [0] * N
 for i in range(N):
     case_list[i] = int(input())
 
@@ -7,8 +7,8 @@ case_list.sort()
 case_list.reverse()
 maximum = 0
 for i in range(N):
-    if case_list[i] * (i+1) > maximum:
-        maximum = case_list[i] * (i+1)
+    if case_list[i] * (i + 1) > maximum:
+        maximum = case_list[i] * (i + 1)
 
 print(maximum)
 # final_rope = 0

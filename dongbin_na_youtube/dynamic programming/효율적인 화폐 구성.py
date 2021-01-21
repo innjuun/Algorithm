@@ -9,8 +9,8 @@ for l in li:
     checked[l] = 1
 m = min(li)
 for i in range(m, M):
-    if min(checked[i-l] for l in li) != 10001:
-        checked[i] = min(checked[i-l] for l in li) + 1
-if checked[M -1] == 10001:
-    print('-1')
-print(checked[M-1])
+    if min(checked[i - l] for l in li) != 10001:
+        checked[i] = min(checked[i - l] for l in li) + 1
+if checked[M - 1] == 10001:
+    print("-1")
+print(checked[M - 1])

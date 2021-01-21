@@ -7,13 +7,15 @@
 class Solution:
     ans = []
     stack = []
+
     def pathSum(self, root: TreeNode, sum: int) -> List[List[int]]:
         self.ans = []
         self.stack = []
         if not root:
             return []
+
         def dfs(total, node):
-            
+
             if not node:
                 return
             if node.left is None and node.right is None:
@@ -27,7 +29,7 @@ class Solution:
             self.stack.append(node.val)
             dfs(total + node.val, node.right)
             self.stack.pop()
-        
+
         dfs(0, root)
-        
+
         return self.ans

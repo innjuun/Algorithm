@@ -15,7 +15,6 @@ for test_case in range(T):
     case_list.sort()
     print(case_list)
 
-
     # count = 0
     # survive1 = [False] * N
     # for i in range(N):

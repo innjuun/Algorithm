@@ -53,14 +53,15 @@ go(0, n, m)
 
 n, m = map(int, input().split())
 
-check = [False] * (n+1)
+check = [False] * (n + 1)
 permut = [0] * m
+
 
 def go(index):
     if index == m:
         print(*permut)
         return
-    for i in range(1, n+1):
+    for i in range(1, n + 1):
         if check[i]:
             continue
         check[i] = True
@@ -68,5 +69,6 @@ def go(index):
         go(index + 1)
         check[i] = False
         permut[index] = 0
+
 
 go(0)

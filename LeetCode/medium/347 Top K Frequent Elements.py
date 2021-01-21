@@ -1,5 +1,6 @@
-
 import heapq
+
+
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         answer = []
@@ -22,8 +23,8 @@ class Solution:
                 break
             value, key = heapq.heappop(heap)
             value = -value
-            
+
             answer.append(key)
-            
+
             cnt += 1
         return answer

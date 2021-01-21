@@ -24,4 +24,4 @@ for case in cases:
 for i in range(len(right)):
     left.append(right.pop())
 
-print(''.join(left))
+print("".join(left))

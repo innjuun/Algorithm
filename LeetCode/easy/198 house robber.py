@@ -9,6 +9,6 @@ class Solution:
         memo[1] = max(nums[0], nums[1])
 
         for i in range(2, len(nums)):
-            memo[i] = max(memo[i-2] + nums[i], memo[i-1])
+            memo[i] = max(memo[i - 2] + nums[i], memo[i - 1])
         print(memo)
         return max(memo)

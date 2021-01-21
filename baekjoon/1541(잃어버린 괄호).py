@@ -1,9 +1,9 @@
 N = input()
 
-N = N.split('-')
+N = N.split("-")
 
 for i in range(len(N)):
-    N[i] = N[i].split('+')
+    N[i] = N[i].split("+")
 
 summary = int(N[0][0])
 for i in range(1, len(N)):
@@ -13,4 +13,3 @@ for i in range(1, len(N)):
     summary = summary - sum
 
 print(summary)
-

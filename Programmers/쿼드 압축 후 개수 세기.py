@@ -1,6 +1,7 @@
 def solution(arr):
     make_quad(arr)
     answer = [0, 0]
+
     def dfs(arr):
         flag = all_sum(arr)
         if flag:
@@ -10,14 +11,25 @@ def solution(arr):
 
         for quad in make_quad(arr):
             dfs(quad)
+
     dfs(arr)
     return answer
 
+
 def make_quad(arr):
-    quad1 = [[arr[i][j] for j in range(len(arr[i])//2)] for i in range(len(arr)//2)]
-    quad2 = [[arr[i][j] for j in range(len(arr[i])//2)] for i in range(len(arr)//2, len(arr))]
-    quad3 = [[arr[i][j] for j in range(len(arr)//2, len(arr))] for i in range(len(arr)//2)]
-    quad4 = [[arr[i][j] for j in range(len(arr)//2, len(arr))] for i in range(len(arr)//2, len(arr))]
+    quad1 = [[arr[i][j] for j in range(len(arr[i]) // 2)] for i in range(len(arr) // 2)]
+    quad2 = [
+        [arr[i][j] for j in range(len(arr[i]) // 2)]
+        for i in range(len(arr) // 2, len(arr))
+    ]
+    quad3 = [
+        [arr[i][j] for j in range(len(arr) // 2, len(arr))]
+        for i in range(len(arr) // 2)
+    ]
+    quad4 = [
+        [arr[i][j] for j in range(len(arr) // 2, len(arr))]
+        for i in range(len(arr) // 2, len(arr))
+    ]
 
     return [quad1, quad2, quad3, quad4]
 

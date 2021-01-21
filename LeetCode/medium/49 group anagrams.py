@@ -2,7 +2,7 @@ class Solution:
     def groupAnagrams(self, strs):
         dic = {}
         for s in strs:
-            ordered_s = ''.join(sorted(s))
+            ordered_s = "".join(sorted(s))
             if ordered_s in dic:
                 dic[ordered_s].append(s)
             else:
@@ -12,5 +12,6 @@ class Solution:
             ans.append(d)
         return ans
 
+
 s = Solution()
-s.groupAnagrams(["eat","tea","tan","ate","nat","bat"])
+s.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"])

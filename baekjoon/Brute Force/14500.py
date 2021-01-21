@@ -8,4 +8,3 @@ for i in range(N):
     for j in range(M):
         count = 1
         board_sum = board[i][j]
-        

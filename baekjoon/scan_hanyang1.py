@@ -4,14 +4,15 @@ import time
 
 def scanning():
     print("This program will print the number of web servers plus your input+10")
-    subnetA, subnetB = map(int, input(
-        "input the address of subnets(Ex. 177.200): ").split('.'))
+    subnetA, subnetB = map(
+        int, input("input the address of subnets(Ex. 177.200): ").split(".")
+    )
     print()
 
     count = 0
     start_time = time.time()
 
-    for i in range(subnetB, subnetB+10):
+    for i in range(subnetB, subnetB + 10):
         addr = f"166.104.{subnetA}.{i}"
         port = 80
 
@@ -21,13 +22,15 @@ def scanning():
 
         try:
             result = socket_obj.connect((addr, port))
-            print(f"Address: {addr} Port: {port} and Success to connect",)
+            print(
+                f"Address: {addr} Port: {port} and Success to connect",
+            )
             try:
                 hostname = socket.gethostbyaddr(addr)[0]
-                print(f"Hostname: {hostname}", end='\n\n')
+                print(f"Hostname: {hostname}", end="\n\n")
 
             except socket.herror:
-                print(f"Hostname: The information of domain is hidden", end='\n\n')
+                print(f"Hostname: The information of domain is hidden", end="\n\n")
 
             count += 1
         except socket.timeout:

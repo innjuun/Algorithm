@@ -1,4 +1,3 @@
-
 def next_permutation(li):
     n = len(li)
     i = n - 1
@@ -39,7 +38,7 @@ while True:
         break
     ok = True
     sum = 0
-    for i in range(n-1):
+    for i in range(n - 1):
         if li[a[i]][a[i + 1]] == 0:
             ok = False
             break

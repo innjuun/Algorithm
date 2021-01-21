@@ -55,4 +55,3 @@ class Solution:
                 stack.append(a.right)
                 stack.append(a.left)
         return root
-

@@ -8,10 +8,10 @@ class Solution:
             if nums[i] == 0:
                 nums.pop(i)
                 nums.append(0)
-                
+
         for i in range(len(nums)):
             if nums[i] == 0:
                 nums.pop(i)
                 nums.append(0)
-        
+
         # not the best solution ....

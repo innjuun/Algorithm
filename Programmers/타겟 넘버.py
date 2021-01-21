@@ -23,6 +23,7 @@ def solution(numbers, target):
     answer = dfs(0, numbers, target, 0)
     return answer
 
+
 def dfs(index, numbers, target, sum):
     if index == len(numbers):
         if sum == target:
@@ -30,6 +31,9 @@ def dfs(index, numbers, target, sum):
         else:
             return 0
 
-    return dfs(index+1, numbers, target, sum + numbers[index]) + dfs(index+1, numbers, target, sum - numbers[index])
+    return dfs(index + 1, numbers, target, sum + numbers[index]) + dfs(
+        index + 1, numbers, target, sum - numbers[index]
+    )
+
 
 solution([1, 1, 1, 1, 1], 3)

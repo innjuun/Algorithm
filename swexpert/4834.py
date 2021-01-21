@@ -13,6 +13,4 @@ for test_case in range(1, T + 1):
         if maximum == count[i]:
             maximum_index = i
 
-
-
-    print('#{} {} {}'.format(test_case, maximum_index, maximum))
+    print("#{} {} {}".format(test_case, maximum_index, maximum))

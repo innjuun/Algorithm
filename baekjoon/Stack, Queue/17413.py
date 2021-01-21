@@ -9,13 +9,13 @@ for char in whole:
         while stack:
             print(stack.pop(), end="")
     if char == "<":
-        print(char, end='')
+        print(char, end="")
         tags = True
     elif char == ">":
-        print(char, end='')
+        print(char, end="")
         tags = False
     elif tags:
-        print(char, end='')
+        print(char, end="")
     elif char == " ":
         while stack:
             print(stack.pop(), end="")

@@ -23,4 +23,3 @@ board = [
 ]
 moves = [1, 5, 3, 5, 1, 2, 1, 4]
 print(solution(board, moves) == 4)
-

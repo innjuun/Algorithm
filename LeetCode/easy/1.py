@@ -43,11 +43,11 @@ class Solution:
             if nums[i] not in dic:
                 dic[nums[i]] = list()
             dic[nums[i]].append(i)
-            
+
         for key, value in dic.items():
             remain_num = target - key
             if remain_num in dic:
                 for kv in dic[remain_num]:
-                    
+
                     if kv != value[0]:
                         return [value[0], kv]

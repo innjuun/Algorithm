@@ -1,4 +1,3 @@
-
 """
 d += list(0 for i in range(101))
 
@@ -34,13 +33,13 @@ d = [0]
 d += [[0 for i in range(10)] for i in range(101)]
 for i in range(1, 10):
     d[1][i] = 1
-for i in range(2, N+1):
+for i in range(2, N + 1):
     for j in range(0, 10):
         d[i][j] = 0
-        if j-1 >= 0:
-            d[i][j] += d[i-1][j-1]
-        if j+1 < 10:
-            d[i][j] += d[i-1][j+1]
+        if j - 1 >= 0:
+            d[i][j] += d[i - 1][j - 1]
+        if j + 1 < 10:
+            d[i][j] += d[i - 1][j + 1]
         d[i][j] = d[i][j] % mod
 
 ans = 0

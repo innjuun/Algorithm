@@ -10,7 +10,7 @@ for i in range(len(inp)):
 
     elif inp[i] == ")":
 
-        if (count - stack[-1] == 1):
+        if count - stack[-1] == 1:
             stack.pop()
             sum += len(stack)
 

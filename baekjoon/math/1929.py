@@ -17,6 +17,7 @@ for i in check:
         print(i)
 """
 import math
+
 flag = True
 li = []
 while flag:
@@ -33,7 +34,7 @@ def isPrime(num):
         return False
 
     n = int(math.sqrt(num))
-    for i in range(2, n+1):
+    for i in range(2, n + 1):
         if num % i == 0:
             return False
     return True
@@ -45,7 +46,7 @@ i2 = 0
 for num in li:
     for i in range(2, num):
         if isPrime(i):
-            if isPrime(num-i):
+            if isPrime(num - i):
 
                 print(f"{num} = {i} + {num - i}")
                 break

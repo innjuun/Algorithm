@@ -1,5 +1,6 @@
 from collections import deque
 
+
 def solution(bridge_length, weight, truck_weights):
     truck_weights = deque(truck_weights)
     crossing = deque()
@@ -14,5 +15,6 @@ def solution(bridge_length, weight, truck_weights):
         while crossing and crossing[0][1] == 0:
             crossing.popleft()
     return answer
+
 
 solution(1, 10, [6])

@@ -1,4 +1,3 @@
-
 L, C = map(int, input().split())
 li = list(input().split())
 
@@ -7,6 +6,7 @@ li.sort()
 
 a = []
 vowel = ["a", "e", "i", "o", "u"]
+
 
 def check(li):
     mo = 0
@@ -21,12 +21,11 @@ def check(li):
         return True
 
 
-
 def go(index, start, n, m):
     if index == m:
         if check(a):
-            print(''.join(a))
-        
+            print("".join(a))
+
         return
     for i in range(start, n):
         a.append(li[i])
@@ -35,4 +34,3 @@ def go(index, start, n, m):
 
 
 go(0, 0, C, L)
-

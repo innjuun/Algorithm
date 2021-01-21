@@ -1,5 +1,6 @@
 # hash
 
+
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
         dic = {}
@@ -8,6 +9,7 @@ class Solution:
                 return nums[i]
             else:
                 dic[nums[i]] = 1
+
 
 # set
 

@@ -6,6 +6,7 @@
 #         self.right = right
 class Solution:
     flag = False
+
     def hasPathSum(self, root: TreeNode, sum: int) -> bool:
         if not root:
             return False
@@ -17,15 +18,15 @@ class Solution:
                 return
             if not node:
                 return
-                
+
             travel(total + node.val, node.left)
             travel(total + node.val, node.right)
-        
+
         travel(0, root)
-        
+
         return self.flag
-    
-    
+
+
 # not using flag
 
 # Definition for a binary tree node.
@@ -44,7 +45,8 @@ class Solution:
                     return True
                 return
 
-            return travel(total + node.val, node.left) or travel(total + node.val, node.right)
-        
+            return travel(total + node.val, node.left) or travel(
+                total + node.val, node.right
+            )
+
         return travel(0, root)
-        

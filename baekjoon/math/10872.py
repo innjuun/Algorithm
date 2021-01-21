@@ -11,8 +11,8 @@ def fac(num):
 
 def fac(num):
     sum = 1
-    for i in range(1, num+1):
-        sum = i*sum
+    for i in range(1, num + 1):
+        sum = i * sum
 
     return sum
 

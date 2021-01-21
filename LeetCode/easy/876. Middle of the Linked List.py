@@ -10,6 +10,6 @@ class Solution:
         while head.next:
             head = head.next
             count += 1
-        for i in range((count+1)//2):
+        for i in range((count + 1) // 2):
             dummyhead = dummyhead.next
         return dummyhead

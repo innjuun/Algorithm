@@ -1,15 +1,17 @@
 # brute force, exceeded time limit
 class Solution:
     def dailyTemperatures(self, T: List[int]) -> List[int]:
-        answer = [0] * len(T) 
+        answer = [0] * len(T)
         for i in range(len(T)):
             for j in range(i + 1, len(T)):
                 if T[j] > T[i]:
-                    answer[i] = j-i
+                    answer[i] = j - i
                     break
         return answer
-    
+
+
 # stack
+
 
 class Solution:
     def dailyTemperatures(self, T: List[int]) -> List[int]:
@@ -21,5 +23,5 @@ class Solution:
                 num, index = stack.pop()
                 answer[index] = i - index
             stack.append((T[i], i))
-            
+
         return answer

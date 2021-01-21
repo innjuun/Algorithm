@@ -9,16 +9,18 @@
 class Solution:
     def inorderTraversal(self, root: TreeNode) -> List[int]:
         ans = []
+
         def inner(root):
             if root is None:
                 return
             inner(root.left)
             ans.append(root.val)
             inner(root.right)
+
         inner(root)
         return ans
-    
-    
+
+
 # iterative solution
 
 # Definition for a binary tree node.
@@ -31,42 +33,40 @@ class Solution:
     def inorderTraversal(self, root: TreeNode) -> List[int]:
         stack = []
         res = []
-        
 
         node = root
         stack.append(node)
         while stack:
-            
-            while node is not None:    
+
+            while node is not None:
                 stack.append(node.left)
                 node = node.left
             node = stack.pop()
             if node is not None:
                 res.append(node.val)
-       
+
                 stack.append(node.right)
                 node = node.right
-            
-            
+
         return res
 
-#optimize
+
+# optimize
+
 
 class Solution:
     def inorderTraversal(self, root: TreeNode) -> List[int]:
         stack = []
         res = []
-        
 
         node = root
         while stack or node:
-            
-            while node:    
+
+            while node:
                 stack.append(node)
                 node = node.left
             node = stack.pop()
             res.append(node.val)
             node = node.right
 
-            
         return res

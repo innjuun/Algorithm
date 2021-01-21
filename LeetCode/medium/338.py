@@ -15,4 +15,3 @@ class Solution:
             for j in range(2 ** (i - 1), 2 ** i):
                 ans[j] = ans[j - (2 ** (i - 1))] + 1
         return ans[: num + 1]
-

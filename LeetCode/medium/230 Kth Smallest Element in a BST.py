@@ -13,6 +13,7 @@ class Solution:
             num.append(root.val)
             if root.right is not None:
                 inorder(root.right)
+
         num = []
         inorder(root)
-        return num[k-1]
+        return num[k - 1]

@@ -8,9 +8,9 @@ def fib(a):
     d[1] = 3
     if a > 2:
         for i in range(2, a):
-            d[i] = d[i-1] + 2 * d[i-2]
+            d[i] = d[i - 1] + 2 * d[i - 2]
 
-    return d[a-1]
+    return d[a - 1]
 
 
 print(fib(N) % 10007)

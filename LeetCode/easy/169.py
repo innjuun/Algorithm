@@ -3,10 +3,10 @@ class Solution:
         dic = {}
         for i in nums:
             if dic.get(i):
-                dic[i] +=1
+                dic[i] += 1
             else:
                 dic[i] = 1
 
         for i, j in dic.items():
-            if j >= len(nums)/2:
+            if j >= len(nums) / 2:
                 return i

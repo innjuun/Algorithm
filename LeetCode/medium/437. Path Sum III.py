@@ -9,13 +9,14 @@ class Solution:
         self.answer = 0
         if not root:
             return 0
+
         def dfs(total, node):
             sum_from_node(total, node)
             if node.left is not None:
                 dfs(total, node.left)
             if node.right is not None:
                 dfs(total, node.right)
-            
+
         def sum_from_node(total, node):
 
             if target == total + node.val:
@@ -24,7 +25,7 @@ class Solution:
                 sum_from_node(total + node.val, node.left)
             if node.right is not None:
                 sum_from_node(total + node.val, node.right)
-        
+
         dfs(0, root)
-        
+
         return self.answer

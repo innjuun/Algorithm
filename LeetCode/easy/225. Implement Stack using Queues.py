@@ -1,13 +1,13 @@
 from collections import deque
-class MyStack:
 
+
+class MyStack:
     def __init__(self):
         """
         Initialize your data structure here.
         """
         self.queue1 = deque()
         self.queue2 = deque()
-        
 
     def push(self, x: int) -> None:
         """
@@ -39,15 +39,15 @@ class MyStack:
 
 
 from collections import deque
-class MyStack:
 
+
+class MyStack:
     def __init__(self):
         """
         Initialize your data structure here.
         """
         self.queue1 = deque()
         self.queue2 = deque()
-        
 
     def push(self, x: int) -> None:
         """
@@ -56,8 +56,8 @@ class MyStack:
         self.queue2.append(x)
         while self.queue1:
             self.queue2.append(self.queue1.popleft())
-        temp  = deque()
-        
+        temp = deque()
+
         temp = self.queue1
         self.queue1 = self.queue2
         self.queue2 = temp
@@ -82,14 +82,14 @@ class MyStack:
 
 
 from collections import deque
-class MyStack:
 
+
+class MyStack:
     def __init__(self):
         """
         Initialize your data structure here.
         """
         self.queue = deque()
-        
 
     def push(self, x: int) -> None:
         """

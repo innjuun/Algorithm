@@ -34,17 +34,17 @@ for i in range(1, len(li)):
     if not stack:
         stack.append(i)
 
-    while (stack and (li[stack[-1]] < li[i])):
+    while stack and (li[stack[-1]] < li[i]):
         ans[stack[-1]] = li[i]
         stack.pop()
 
     stack.append(i)
 
 
-while (stack):
+while stack:
     ans[stack[-1]] = -1
 
     stack.pop()
 
 for a in ans:
-    print(a, end=' ')
+    print(a, end=" ")

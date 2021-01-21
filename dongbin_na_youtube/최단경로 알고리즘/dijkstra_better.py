@@ -14,7 +14,8 @@ distance = [INF] * (n + 1)
 for i in range(m):
     a, b, c = map(int, input().split())
     graph[a].append((b, c))
-    
+
+
 def dijkstra(start):
     q = []
     heapq.heappush(q, (0, start))
@@ -29,7 +30,8 @@ def dijkstra(start):
             if cost < distance[node]:
                 distance[node] = cost
                 heapq.heappush(q, (cost, node))
-                
+
+
 dijkstra(start)
 
 for i in range(1, n + 1):
