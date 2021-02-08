@@ -43,14 +43,10 @@ i, j, cnt, direction = 0, 0, 0, 0
 while True:
     array[i][j] = alphabets[cnt % 26]
     if is_can_go(i + nx[direction % 4], j + ny[direction % 4]):
-        i += nx[direction % 4]
-        j += ny[direction % 4]
-        cnt += 1
+        pass
     else:
         direction += 1
-        i += nx[direction % 4]
-        j += ny[direction % 4]
-        cnt += 1
+
     if all([all(line) for line in array]):
         break
 
