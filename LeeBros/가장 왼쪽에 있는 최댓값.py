@@ -8,8 +8,8 @@ while True:
     maximum = max(li)
     for i, elem in enumerate(li):
         if elem == maximum:
-            answer.append(i+1)
+            answer.append(i + 1)
             li = li[:i]
             break
-    
-print(' '.join(map(str, answer)))
+
+print(" ".join(map(str, answer)))

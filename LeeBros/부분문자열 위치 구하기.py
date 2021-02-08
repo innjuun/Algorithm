@@ -11,5 +11,5 @@ for i in range(len(N)):
             break
         if j == len(M) - 1:
             answer = i
-            
+
 print(answer)
