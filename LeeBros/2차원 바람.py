@@ -15,30 +15,30 @@ def is_valid(i, j):
 def rotate(array, wind):
     r1, c1, r2, c2 = wind
     current = r1, c1
-    value = array[r1][c1]
+    before_value = array[r1][c1]
 
     while current[1] < c2:
-        temp = value
-        value = array[current[0]][current[1]]
-        array[current[0]][current[1]] = temp
+        new_value = array[current[0]][current[1]]
+        array[current[0]][current[1]] = before_value
+        before_value = new_value
         current = current[0], current[1] + 1
-
+        
     while current[0] < r2:
-        temp = value
-        value = array[current[0]][current[1]]
-        array[current[0]][current[1]] = temp
+        new_value = array[current[0]][current[1]]
+        array[current[0]][current[1]] = before_value
+        before_value = new_value
         current = current[0] + 1, current[1]
 
     while current[1] > c1:
-        temp = value
-        value = array[current[0]][current[1]]
-        array[current[0]][current[1]] = temp
+        new_value = array[current[0]][current[1]]
+        array[current[0]][current[1]] = before_value
+        before_value = new_value
         current = current[0], current[1] - 1
 
     while current[0] >= r1:
-        temp = value
-        value = array[current[0]][current[1]]
-        array[current[0]][current[1]] = temp
+        new_value = array[current[0]][current[1]]
+        array[current[0]][current[1]] = before_value
+        before_value = new_value
         current = current[0] - 1, current[1]
 
 
