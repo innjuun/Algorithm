@@ -19,25 +19,25 @@ def rotate(array, wind):
 
     while current[1] < c2:
         temp = value
-        value = array[current[0]][current[1]] 
+        value = array[current[0]][current[1]]
         array[current[0]][current[1]] = temp
         current = current[0], current[1] + 1
 
     while current[0] < r2:
         temp = value
-        value = array[current[0]][current[1]] 
+        value = array[current[0]][current[1]]
         array[current[0]][current[1]] = temp
         current = current[0] + 1, current[1]
 
     while current[1] > c1:
         temp = value
-        value = array[current[0]][current[1]] 
+        value = array[current[0]][current[1]]
         array[current[0]][current[1]] = temp
         current = current[0], current[1] - 1
 
     while current[0] >= r1:
         temp = value
-        value = array[current[0]][current[1]] 
+        value = array[current[0]][current[1]]
         array[current[0]][current[1]] = temp
         current = current[0] - 1, current[1]
 
