@@ -1,4 +1,3 @@
-from copy import deepcopy
 n = int(input())
 
 grid = [list(map(int, input().split())) for _ in range(n)]
