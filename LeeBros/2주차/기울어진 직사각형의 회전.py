@@ -5,6 +5,8 @@ grid = [list(map(int, input().split())) for _ in range(n)]
 info = list(map(int, input().split()))
 
 direction = [[-1, 1], [-1, -1], [1, -1], [1, 1]]
+
+
 def rotate(grid, info):
     r, c, m1, m2, m3, m4, dir = info
     r -= 1
@@ -12,25 +14,13 @@ def rotate(grid, info):
 
     temp = grid[r][c]
     before_curr = r, c
-    for i in range(m1):
-        curr = before_curr[0] + direction[0][0], before_curr[1] + direction[0][1]
-        grid[before_curr[0]][before_curr[1]] = grid[curr[0]][curr[1]]
-        before_curr = curr
 
-    for i in range(m2):
-        curr = before_curr[0] + direction[1][0], before_curr[1] + direction[1][1]
-        grid[before_curr[0]][before_curr[1]] = grid[curr[0]][curr[1]]
-        before_curr = curr
-    
-    for i in range(m3):
-        curr = before_curr[0] + direction[2][0], before_curr[1] + direction[2][1]
-        grid[before_curr[0]][before_curr[1]] = grid[curr[0]][curr[1]]
-        before_curr = curr
-    
-    for i in range(m4):
-        curr = before_curr[0] + direction[3][0], before_curr[1] + direction[3][1]
-        grid[before_curr[0]][before_curr[1]] = grid[curr[0]][curr[1]]
-        before_curr = curr
+    for index, m in enumerate([m1, m2, m3, m4]):
+        for _ in range(m):
+            curr = before_curr[0] + direction[index][0], before_curr[1] + direction[index][1]
+            grid[before_curr[0]][before_curr[1]] = grid[curr[0]][curr[1]]
+            before_curr = curr
+
     grid[before_curr[0] - direction[3][0]][before_curr[1] - direction[3][1]] = temp
     
 
@@ -41,34 +31,13 @@ def rotate_reverse(grid, info):
 
     value = grid[r][c]
     before_curr = r, c
-
-    for i in range(m1):
-        curr = before_curr[0] + direction[0][0], before_curr[1] + direction[0][1]
-        temp = grid[curr[0]][curr[1]]
-        grid[curr[0]][curr[1]] = value
-        value = temp
-        before_curr = curr
-
-    for i in range(m2):
-        curr = before_curr[0] + direction[1][0], before_curr[1] + direction[1][1]
-        temp = grid[curr[0]][curr[1]]
-        grid[curr[0]][curr[1]] = value
-        value = temp
-        before_curr = curr
-
-    for i in range(m3):
-        curr = before_curr[0] + direction[2][0], before_curr[1] + direction[2][1]
-        temp = grid[curr[0]][curr[1]]
-        grid[curr[0]][curr[1]] = value
-        value = temp
-        before_curr = curr
-
-    for i in range(m4):
-        curr = before_curr[0] + direction[3][0], before_curr[1] + direction[3][1]
-        temp = grid[curr[0]][curr[1]]
-        grid[curr[0]][curr[1]] = value
-        value = temp
-        before_curr = curr
+    for index, m in enumerate([m1, m2, m3, m4]):
+        for _ in range(m):
+            curr = before_curr[0] + direction[index][0], before_curr[1] + direction[index][1]
+            temp = grid[curr[0]][curr[1]]
+            grid[curr[0]][curr[1]] = value
+            value = temp
+            before_curr = curr
 
 
 if info[-1] == 1:
