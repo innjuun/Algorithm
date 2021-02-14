@@ -17,13 +17,17 @@ def reverse_grid(grid):
 def left_merge(row):
     row = [i for i in row if i != 0]
     ret = []
-
-    while row:
-        item = row.pop(0)
-        if ret and ret[-1] == item:
-            ret.append(ret.pop() + item)
+    keep = []
+    for i in range(len(row)):
+        if not keep:
+            keep.append(row[i])
+        elif keep and keep[-1] == row[i]:
+            ret.append(keep.pop() * 2)
         else:
-            ret.append(item)
+            ret.append(keep.pop())
+            keep.append(row[i])
+    if keep:
+        ret.append(keep.pop())
 
     zeros = n - len(ret)
     for _ in range(zeros):
@@ -33,21 +37,9 @@ def left_merge(row):
 
 
 def right_merge(row):
-    row = [i for i in row if i != 0]
-    ret = []
-    
-    while row:
-        item = row.pop()
-        if ret and ret[0] == item:
-            ret.insert(0, ret.pop(0) + item)
-        else:
-            ret.insert(0, item)
-
-    zeros = n - len(ret)
-    for _ in range(zeros):
-        ret.insert(0, 0)
-
-    return ret
+    row = row[::-1]
+    row = left_merge(row)
+    return row[::-1]
 
 
 def move(index, grid, direction):
@@ -60,7 +52,7 @@ def move(index, grid, direction):
 
     elif direction == RIGHT:
         for i in range(n):
-            ret.append(left_merge(grid[i]))
+            ret.append(right_merge(grid[i]))
 
     elif direction == UP:
         reversed_grid = reverse_grid(grid)
