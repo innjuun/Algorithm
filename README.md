@@ -3,7 +3,10 @@
 ### Algorithm
 + [repository_crawler](https://github.com//innjuun/Algorithm/blob/master/repository_crawler.py)
 + [연습장](https://github.com//innjuun/Algorithm/blob/master/%EC%97%B0%EC%8A%B5%EC%9E%A5.py)
-
+### /.vscode
+### /.vscode/launch.json
+### /.vscode/settings.json
+### /Data structure
 + [LinkedList](https://github.com//innjuun/Algorithm/blob/master/Data%20structure/LinkedList.py)
 + [bubbleSort](https://github.com//innjuun/Algorithm/blob/master/Data%20structure/bubbleSort.py)
 + [insertionSort](https://github.com//innjuun/Algorithm/blob/master/Data%20structure/insertionSort.py)
@@ -11,8 +14,8 @@
 + [quickSort](https://github.com//innjuun/Algorithm/blob/master/Data%20structure/quickSort.py)
 + [search](https://github.com//innjuun/Algorithm/blob/master/Data%20structure/search.py)
 + [selectionSort](https://github.com//innjuun/Algorithm/blob/master/Data%20structure/selectionSort.py)
-### Algorithm/tree/master/LeeBros
-### Algorithm/tree/master/LeeBros/1주차
+### /LeeBros
+### /LeeBros/1주차
 + [2개씩 그룹짓기](https://github.com//innjuun/Algorithm/blob/master/LeeBros/1%EC%A3%BC%EC%B0%A8/2%EA%B0%9C%EC%94%A9%20%EA%B7%B8%EB%A3%B9%EC%A7%93%EA%B8%B0.py)
 + [가장 왼쪽에 있는 최댓값](https://github.com//innjuun/Algorithm/blob/master/LeeBros/1%EC%A3%BC%EC%B0%A8/%EA%B0%80%EC%9E%A5%20%EC%99%BC%EC%AA%BD%EC%97%90%20%EC%9E%88%EB%8A%94%20%EC%B5%9C%EB%8C%93%EA%B0%92.py)
 + [박스 굴리기](https://github.com//innjuun/Algorithm/blob/master/LeeBros/1%EC%A3%BC%EC%B0%A8/%EB%B0%95%EC%8A%A4%20%EA%B5%B4%EB%A6%AC%EA%B8%B0.py)
@@ -21,7 +24,7 @@
 + [빙빙 돌며 사각형 채우기](https://github.com//innjuun/Algorithm/blob/master/LeeBros/1%EC%A3%BC%EC%B0%A8/%EB%B9%99%EB%B9%99%20%EB%8F%8C%EB%A9%B0%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B1%84%EC%9A%B0%EA%B8%B0.py)
 + [약수의 개수가 3개인 수](https://github.com//innjuun/Algorithm/blob/master/LeeBros/1%EC%A3%BC%EC%B0%A8/%EC%95%BD%EC%88%98%EC%9D%98%20%EA%B0%9C%EC%88%98%EA%B0%80%203%EA%B0%9C%EC%9D%B8%20%EC%88%98.py)
 + [정렬된 숫자 위치 알아내기](https://github.com//innjuun/Algorithm/blob/master/LeeBros/1%EC%A3%BC%EC%B0%A8/%EC%A0%95%EB%A0%AC%EB%90%9C%20%EC%88%AB%EC%9E%90%20%EC%9C%84%EC%B9%98%20%EC%95%8C%EC%95%84%EB%82%B4%EA%B8%B0.py)
-### Algorithm/tree/master/LeeBros/2주차
+### /LeeBros/2주차
 + [1차원 바람](https://github.com//innjuun/Algorithm/blob/master/LeeBros/2%EC%A3%BC%EC%B0%A8/1%EC%B0%A8%EC%9B%90%20%EB%B0%94%EB%9E%8C.py)
 + [2048 게임](https://github.com//innjuun/Algorithm/blob/master/LeeBros/2%EC%A3%BC%EC%B0%A8/2048%20%EA%B2%8C%EC%9E%84.py)
 + [2차원 바람](https://github.com//innjuun/Algorithm/blob/master/LeeBros/2%EC%A3%BC%EC%B0%A8/2%EC%B0%A8%EC%9B%90%20%EB%B0%94%EB%9E%8C.py)
@@ -31,10 +34,10 @@
 + [정육면체 굴리기](https://github.com//innjuun/Algorithm/blob/master/LeeBros/2%EC%A3%BC%EC%B0%A8/%EC%A0%95%EC%9C%A1%EB%A9%B4%EC%B2%B4%20%EA%B5%B4%EB%A6%AC%EA%B8%B0.py)
 + [트로미노](https://github.com//innjuun/Algorithm/blob/master/LeeBros/2%EC%A3%BC%EC%B0%A8/%ED%8A%B8%EB%A1%9C%EB%AF%B8%EB%85%B8.py)
 + [행복한 수열의 개수](https://github.com//innjuun/Algorithm/blob/master/LeeBros/2%EC%A3%BC%EC%B0%A8/%ED%96%89%EB%B3%B5%ED%95%9C%20%EC%88%98%EC%97%B4%EC%9D%98%20%EA%B0%9C%EC%88%98.py)
-### Algorithm/tree/master/LeetCode
+### /LeetCode
 + [283](https://github.com//innjuun/Algorithm/blob/master/LeetCode/283.py)
 + [test](https://github.com//innjuun/Algorithm/blob/master/LeetCode/test.py)
-### Algorithm/tree/master/LeetCode/easy
+### /LeetCode/easy
 + [1](https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/1.py)
 + [101 Symmetric Tree](https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/101%20Symmetric%20Tree.py)
 + [104](https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/104.py)
@@ -65,9 +68,9 @@
 + [70](https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/70.py)
 + [704  binary search](https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/704%20%20binary%20search.py)
 + [876. Middle of the Linked List](https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/876.%20Middle%20of%20the%20Linked%20List.py)
-### Algorithm/tree/master/LeetCode/hard
+### /LeetCode/hard
 + [42. Trapping Rain Water](https://github.com//innjuun/Algorithm/blob/master/LeetCode/hard/42.%20Trapping%20Rain%20Water.py)
-### Algorithm/tree/master/LeetCode/medium
+### /LeetCode/medium
 + [101 symmetric tree](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/101%20symmetric%20tree.py)
 + [102. Binary Tree Level Order Traversal](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/102.%20Binary%20Tree%20Level%20Order%20Traversal.py)
 + [11. Container With Most Water](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/11.%20Container%20With%20Most%20Water.py)
@@ -114,7 +117,7 @@
 + [94 binary Tree Inorder Traversal](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/94%20binary%20Tree%20Inorder%20Traversal.py)
 + [96. Unique Binary Search Trees](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/96.%20Unique%20Binary%20Search%20Trees.py)
 + [test](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/test.py)
-### Algorithm/tree/master/Programmers
+### /Programmers
 + [124 나라의 숫자](https://github.com//innjuun/Algorithm/blob/master/Programmers/124%20%EB%82%98%EB%9D%BC%EC%9D%98%20%EC%88%AB%EC%9E%90.py)
 + [K번째수](https://github.com//innjuun/Algorithm/blob/master/Programmers/K%EB%B2%88%EC%A7%B8%EC%88%98.py)
 + [N으로 표현](https://github.com//innjuun/Algorithm/blob/master/Programmers/N%EC%9C%BC%EB%A1%9C%20%ED%91%9C%ED%98%84.py)
@@ -142,14 +145,12 @@
 + [큰 수 만들기](https://github.com//innjuun/Algorithm/blob/master/Programmers/%ED%81%B0%20%EC%88%98%20%EB%A7%8C%EB%93%A4%EA%B8%B0.py)
 + [타겟 넘버](https://github.com//innjuun/Algorithm/blob/master/Programmers/%ED%83%80%EA%B2%9F%20%EB%84%98%EB%B2%84.py)
 + [프린터](https://github.com//innjuun/Algorithm/blob/master/Programmers/%ED%94%84%EB%A6%B0%ED%84%B0.py)
-### Algorithm/tree/master/Programmers/test
+### /Programmers/test
 + [2](https://github.com//innjuun/Algorithm/blob/master/Programmers/test/2.py)
-### Algorithm/tree/master/baekjoon
+### /baekjoon
 + [1541(잃어버린 괄호)](https://github.com//innjuun/Algorithm/blob/master/baekjoon/1541(%EC%9E%83%EC%96%B4%EB%B2%84%EB%A6%B0%20%EA%B4%84%ED%98%B8).py)
 + [scan_hanyang1](https://github.com//innjuun/Algorithm/blob/master/baekjoon/scan_hanyang1.py)
-### Algorithm/tree/master/baekjoon/.vscode
-### Algorithm/blob/master/baekjoon/.vscode/settings.json
-### Algorithm/tree/master/baekjoon/Brute Force
+### /baekjoon/Brute Force
 + [10819](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Brute%20Force/10819.py)
 + [10971](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Brute%20Force/10971.py)
 + [10972](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Brute%20Force/10972.py)
@@ -184,7 +185,7 @@
 + [9095](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Brute%20Force/9095.py)
 + [test](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Brute%20Force/test.py)
 + [test1](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Brute%20Force/test1.py)
-### Algorithm/tree/master/baekjoon/Dynamic Programming
+### /baekjoon/Dynamic Programming
 + [10844](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Dynamic%20Programming/10844.py)
 + [11052](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Dynamic%20Programming/11052.py)
 + [11053](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Dynamic%20Programming/11053.py)
@@ -212,7 +213,7 @@
 + [2225](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Dynamic%20Programming/2225.py)
 + [9095](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Dynamic%20Programming/9095.py)
 + [9465](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Dynamic%20Programming/9465.py)
-### Algorithm/tree/master/baekjoon/Graph
+### /baekjoon/Graph
 + [11724](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Graph/11724.py)
 + [1260](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Graph/1260.py)
 + [13023](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Graph/13023.py)
@@ -224,20 +225,7 @@
 + [7562](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Graph/7562.py)
 + [7576](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Graph/7576.py)
 + [test](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Graph/test.py)
-### Algorithm/tree/master/baekjoon/Greedy Algorithm
-+ [1049(기타줄)](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/1049(%EA%B8%B0%ED%83%80%EC%A4%84).py)
-+ [10610(30)](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/10610(30).py)
-+ [1080(행렬)](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/1080(%ED%96%89%EB%A0%AC).py)
-+ [1120(문자열)](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/1120(%EB%AC%B8%EC%9E%90%EC%97%B4).py)
-+ [1946(신입 사원)](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/1946(%EC%8B%A0%EC%9E%85%20%EC%82%AC%EC%9B%90).py)
-+ [2217(로프)](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/2217(%EB%A1%9C%ED%94%84).py)
-+ [2529(부등호)](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/2529(%EB%B6%80%EB%93%B1%ED%98%B8).py)
-+ [2875(대회 or 인턴)](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/2875(%EB%8C%80%ED%9A%8C%20or%20%EC%9D%B8%ED%84%B4).py)
-+ [ATM](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/ATM.py)
-+ [동전 0](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/%EB%8F%99%EC%A0%84%200.py)
-+ [홀수만 더하기](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/%ED%99%80%EC%88%98%EB%A7%8C%20%EB%8D%94%ED%95%98%EA%B8%B0.py)
-+ [회의실배정](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/%ED%9A%8C%EC%9D%98%EC%8B%A4%EB%B0%B0%EC%A0%95.py)
-### Algorithm/tree/master/baekjoon/Stack, Queue
+### /baekjoon/Stack, Queue
 + [10799](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Stack%2C%20Queue/10799.py)
 + [10845](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Stack%2C%20Queue/10845.py)
 + [1158](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Stack%2C%20Queue/1158.py)
@@ -248,7 +236,7 @@
 + [1874](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Stack%2C%20Queue/1874.py)
 + [9012](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Stack%2C%20Queue/9012.py)
 + [9093](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Stack%2C%20Queue/9093.py)
-### Algorithm/tree/master/baekjoon/math
+### /baekjoon/math
 + [10872](https://github.com//innjuun/Algorithm/blob/master/baekjoon/math/10872.py)
 + [1373](https://github.com//innjuun/Algorithm/blob/master/baekjoon/math/1373.py)
 + [1676](https://github.com//innjuun/Algorithm/blob/master/baekjoon/math/1676.py)
@@ -256,7 +244,7 @@
 + [1929](https://github.com//innjuun/Algorithm/blob/master/baekjoon/math/1929.py)
 + [2609](https://github.com//innjuun/Algorithm/blob/master/baekjoon/math/2609.py)
 + [9613](https://github.com//innjuun/Algorithm/blob/master/baekjoon/math/9613.py)
-### Algorithm/tree/master/baekjoon/print
+### /baekjoon/print
 + [10991](https://github.com//innjuun/Algorithm/blob/master/baekjoon/print/10991.py)
 + [10992](https://github.com//innjuun/Algorithm/blob/master/baekjoon/print/10992.py)
 + [11720](https://github.com//innjuun/Algorithm/blob/master/baekjoon/print/11720.py)
@@ -269,25 +257,21 @@
 + [2445](https://github.com//innjuun/Algorithm/blob/master/baekjoon/print/2445.py)
 + [2446](https://github.com//innjuun/Algorithm/blob/master/baekjoon/print/2446.py)
 + [2522](https://github.com//innjuun/Algorithm/blob/master/baekjoon/print/2522.py)
-### Algorithm/tree/master/dongbin_na_youtube
-### Algorithm/tree/master/dongbin_na_youtube/dynamic programming
+### /dongbin_na_youtube
+### /dongbin_na_youtube/dynamic programming
 + [1로 만들기](https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/dynamic%20programming/1%EB%A1%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0.py)
 + [개미 전사](https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/dynamic%20programming/%EA%B0%9C%EB%AF%B8%20%EC%A0%84%EC%82%AC.py)
 + [금광](https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/dynamic%20programming/%EA%B8%88%EA%B4%91.py)
 + [병사 배치하기(가장 긴 부분수열)](https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/dynamic%20programming/%EB%B3%91%EC%82%AC%20%EB%B0%B0%EC%B9%98%ED%95%98%EA%B8%B0(%EA%B0%80%EC%9E%A5%20%EA%B8%B4%20%EB%B6%80%EB%B6%84%EC%88%98%EC%97%B4).py)
 + [효율적인 화폐 구성](https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/dynamic%20programming/%ED%9A%A8%EC%9C%A8%EC%A0%81%EC%9D%B8%20%ED%99%94%ED%8F%90%20%EA%B5%AC%EC%84%B1.py)
-### Algorithm/tree/master/dongbin_na_youtube/graph
+### /dongbin_na_youtube/graph
 + [kruskal](https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/graph/kruskal.py)
 + [topology_sort](https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/graph/topology_sort.py)
-### Algorithm/tree/master/dongbin_na_youtube/최단경로 알고리즘
-+ [dijkstra](https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/%EC%B5%9C%EB%8B%A8%EA%B2%BD%EB%A1%9C%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/dijkstra.py)
-+ [dijkstra_better](https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/%EC%B5%9C%EB%8B%A8%EA%B2%BD%EB%A1%9C%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/dijkstra_better.py)
-+ [미래 도시](https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/%EC%B5%9C%EB%8B%A8%EA%B2%BD%EB%A1%9C%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EB%AF%B8%EB%9E%98%20%EB%8F%84%EC%8B%9C.py)
-+ [전보](https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/%EC%B5%9C%EB%8B%A8%EA%B2%BD%EB%A1%9C%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%A0%84%EB%B3%B4.py)
-### Algorithm/tree/master/swexpert
+### /swexpert
 + [4831](https://github.com//innjuun/Algorithm/blob/master/swexpert/4831.py)
 + [4834](https://github.com//innjuun/Algorithm/blob/master/swexpert/4834.py)
 + [4835](https://github.com//innjuun/Algorithm/blob/master/swexpert/4835.py)
 + [4836](https://github.com//innjuun/Algorithm/blob/master/swexpert/4836.py)
 + [4837](https://github.com//innjuun/Algorithm/blob/master/swexpert/4837.py)
-### Algorithm/blob/master/README.md
+### /.gitignore
+### /README.md
