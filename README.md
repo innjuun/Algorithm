@@ -3,9 +3,6 @@
 ### Algorithm
 + [repository_crawler](https://github.com//innjuun/Algorithm/blob/master/repository_crawler.py)
 + [연습장](https://github.com//innjuun/Algorithm/blob/master/%EC%97%B0%EC%8A%B5%EC%9E%A5.py)
-### /.vscode
-### /.vscode/launch.json
-### /.vscode/settings.json
 ### /Data structure
 + [LinkedList](https://github.com//innjuun/Algorithm/blob/master/Data%20structure/LinkedList.py)
 + [bubbleSort](https://github.com//innjuun/Algorithm/blob/master/Data%20structure/bubbleSort.py)
@@ -150,6 +147,8 @@
 ### /baekjoon
 + [1541(잃어버린 괄호)](https://github.com//innjuun/Algorithm/blob/master/baekjoon/1541(%EC%9E%83%EC%96%B4%EB%B2%84%EB%A6%B0%20%EA%B4%84%ED%98%B8).py)
 + [scan_hanyang1](https://github.com//innjuun/Algorithm/blob/master/baekjoon/scan_hanyang1.py)
+### /baekjoon/.vscode
+### /baekjoon/.vscode/settings.json
 ### /baekjoon/Brute Force
 + [10819](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Brute%20Force/10819.py)
 + [10971](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Brute%20Force/10971.py)
@@ -225,6 +224,19 @@
 + [7562](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Graph/7562.py)
 + [7576](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Graph/7576.py)
 + [test](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Graph/test.py)
+### /baekjoon/Greedy Algorithm
++ [1049(기타줄)](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/1049(%EA%B8%B0%ED%83%80%EC%A4%84).py)
++ [10610(30)](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/10610(30).py)
++ [1080(행렬)](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/1080(%ED%96%89%EB%A0%AC).py)
++ [1120(문자열)](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/1120(%EB%AC%B8%EC%9E%90%EC%97%B4).py)
++ [1946(신입 사원)](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/1946(%EC%8B%A0%EC%9E%85%20%EC%82%AC%EC%9B%90).py)
++ [2217(로프)](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/2217(%EB%A1%9C%ED%94%84).py)
++ [2529(부등호)](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/2529(%EB%B6%80%EB%93%B1%ED%98%B8).py)
++ [2875(대회 or 인턴)](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/2875(%EB%8C%80%ED%9A%8C%20or%20%EC%9D%B8%ED%84%B4).py)
++ [ATM](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/ATM.py)
++ [동전 0](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/%EB%8F%99%EC%A0%84%200.py)
++ [홀수만 더하기](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/%ED%99%80%EC%88%98%EB%A7%8C%20%EB%8D%94%ED%95%98%EA%B8%B0.py)
++ [회의실배정](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Greedy%20Algorithm/%ED%9A%8C%EC%9D%98%EC%8B%A4%EB%B0%B0%EC%A0%95.py)
 ### /baekjoon/Stack, Queue
 + [10799](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Stack%2C%20Queue/10799.py)
 + [10845](https://github.com//innjuun/Algorithm/blob/master/baekjoon/Stack%2C%20Queue/10845.py)
@@ -267,6 +279,11 @@
 ### /dongbin_na_youtube/graph
 + [kruskal](https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/graph/kruskal.py)
 + [topology_sort](https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/graph/topology_sort.py)
+### /dongbin_na_youtube/최단경로 알고리즘
++ [dijkstra](https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/%EC%B5%9C%EB%8B%A8%EA%B2%BD%EB%A1%9C%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/dijkstra.py)
++ [dijkstra_better](https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/%EC%B5%9C%EB%8B%A8%EA%B2%BD%EB%A1%9C%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/dijkstra_better.py)
++ [미래 도시](https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/%EC%B5%9C%EB%8B%A8%EA%B2%BD%EB%A1%9C%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EB%AF%B8%EB%9E%98%20%EB%8F%84%EC%8B%9C.py)
++ [전보](https://github.com//innjuun/Algorithm/blob/master/dongbin_na_youtube/%EC%B5%9C%EB%8B%A8%EA%B2%BD%EB%A1%9C%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%A0%84%EB%B3%B4.py)
 ### /swexpert
 + [4831](https://github.com//innjuun/Algorithm/blob/master/swexpert/4831.py)
 + [4834](https://github.com//innjuun/Algorithm/blob/master/swexpert/4834.py)
