@@ -3,10 +3,7 @@
 ### Algorithm
 + [repository_crawler](https://github.com//innjuun/Algorithm/blob/master/repository_crawler.py)
 + [연습장](https://github.com//innjuun/Algorithm/blob/master/%EC%97%B0%EC%8A%B5%EC%9E%A5.py)
-### Algorithm/tree/master/.vscode
-### Algorithm/blob/master/.vscode/launch.json
-### Algorithm/blob/master/.vscode/settings.json
-### Algorithm/tree/master/Data structure
+
 + [LinkedList](https://github.com//innjuun/Algorithm/blob/master/Data%20structure/LinkedList.py)
 + [bubbleSort](https://github.com//innjuun/Algorithm/blob/master/Data%20structure/bubbleSort.py)
 + [insertionSort](https://github.com//innjuun/Algorithm/blob/master/Data%20structure/insertionSort.py)
@@ -14,6 +11,26 @@
 + [quickSort](https://github.com//innjuun/Algorithm/blob/master/Data%20structure/quickSort.py)
 + [search](https://github.com//innjuun/Algorithm/blob/master/Data%20structure/search.py)
 + [selectionSort](https://github.com//innjuun/Algorithm/blob/master/Data%20structure/selectionSort.py)
+### Algorithm/tree/master/LeeBros
+### Algorithm/tree/master/LeeBros/1주차
++ [2개씩 그룹짓기](https://github.com//innjuun/Algorithm/blob/master/LeeBros/1%EC%A3%BC%EC%B0%A8/2%EA%B0%9C%EC%94%A9%20%EA%B7%B8%EB%A3%B9%EC%A7%93%EA%B8%B0.py)
++ [가장 왼쪽에 있는 최댓값](https://github.com//innjuun/Algorithm/blob/master/LeeBros/1%EC%A3%BC%EC%B0%A8/%EA%B0%80%EC%9E%A5%20%EC%99%BC%EC%AA%BD%EC%97%90%20%EC%9E%88%EB%8A%94%20%EC%B5%9C%EB%8C%93%EA%B0%92.py)
++ [박스 굴리기](https://github.com//innjuun/Algorithm/blob/master/LeeBros/1%EC%A3%BC%EC%B0%A8/%EB%B0%95%EC%8A%A4%20%EA%B5%B4%EB%A6%AC%EA%B8%B0.py)
++ [보고 말하는 수열](https://github.com//innjuun/Algorithm/blob/master/LeeBros/1%EC%A3%BC%EC%B0%A8/%EB%B3%B4%EA%B3%A0%20%EB%A7%90%ED%95%98%EB%8A%94%20%EC%88%98%EC%97%B4.py)
++ [부분문자열 위치 구하기](https://github.com//innjuun/Algorithm/blob/master/LeeBros/1%EC%A3%BC%EC%B0%A8/%EB%B6%80%EB%B6%84%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%9C%84%EC%B9%98%20%EA%B5%AC%ED%95%98%EA%B8%B0.py)
++ [빙빙 돌며 사각형 채우기](https://github.com//innjuun/Algorithm/blob/master/LeeBros/1%EC%A3%BC%EC%B0%A8/%EB%B9%99%EB%B9%99%20%EB%8F%8C%EB%A9%B0%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B1%84%EC%9A%B0%EA%B8%B0.py)
++ [약수의 개수가 3개인 수](https://github.com//innjuun/Algorithm/blob/master/LeeBros/1%EC%A3%BC%EC%B0%A8/%EC%95%BD%EC%88%98%EC%9D%98%20%EA%B0%9C%EC%88%98%EA%B0%80%203%EA%B0%9C%EC%9D%B8%20%EC%88%98.py)
++ [정렬된 숫자 위치 알아내기](https://github.com//innjuun/Algorithm/blob/master/LeeBros/1%EC%A3%BC%EC%B0%A8/%EC%A0%95%EB%A0%AC%EB%90%9C%20%EC%88%AB%EC%9E%90%20%EC%9C%84%EC%B9%98%20%EC%95%8C%EC%95%84%EB%82%B4%EA%B8%B0.py)
+### Algorithm/tree/master/LeeBros/2주차
++ [1차원 바람](https://github.com//innjuun/Algorithm/blob/master/LeeBros/2%EC%A3%BC%EC%B0%A8/1%EC%B0%A8%EC%9B%90%20%EB%B0%94%EB%9E%8C.py)
++ [2048 게임](https://github.com//innjuun/Algorithm/blob/master/LeeBros/2%EC%A3%BC%EC%B0%A8/2048%20%EA%B2%8C%EC%9E%84.py)
++ [2차원 바람](https://github.com//innjuun/Algorithm/blob/master/LeeBros/2%EC%A3%BC%EC%B0%A8/2%EC%B0%A8%EC%9B%90%20%EB%B0%94%EB%9E%8C.py)
++ [겹쳐지지 않는 두 직사각형](https://github.com//innjuun/Algorithm/blob/master/LeeBros/2%EC%A3%BC%EC%B0%A8/%EA%B2%B9%EC%B3%90%EC%A7%80%EC%A7%80%20%EC%95%8A%EB%8A%94%20%EB%91%90%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95.py)
++ [기울어진 직사각형](https://github.com//innjuun/Algorithm/blob/master/LeeBros/2%EC%A3%BC%EC%B0%A8/%EA%B8%B0%EC%9A%B8%EC%96%B4%EC%A7%84%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95.py)
++ [기울어진 직사각형의 회전](https://github.com//innjuun/Algorithm/blob/master/LeeBros/2%EC%A3%BC%EC%B0%A8/%EA%B8%B0%EC%9A%B8%EC%96%B4%EC%A7%84%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%EC%9D%98%20%ED%9A%8C%EC%A0%84.py)
++ [정육면체 굴리기](https://github.com//innjuun/Algorithm/blob/master/LeeBros/2%EC%A3%BC%EC%B0%A8/%EC%A0%95%EC%9C%A1%EB%A9%B4%EC%B2%B4%20%EA%B5%B4%EB%A6%AC%EA%B8%B0.py)
++ [트로미노](https://github.com//innjuun/Algorithm/blob/master/LeeBros/2%EC%A3%BC%EC%B0%A8/%ED%8A%B8%EB%A1%9C%EB%AF%B8%EB%85%B8.py)
++ [행복한 수열의 개수](https://github.com//innjuun/Algorithm/blob/master/LeeBros/2%EC%A3%BC%EC%B0%A8/%ED%96%89%EB%B3%B5%ED%95%9C%20%EC%88%98%EC%97%B4%EC%9D%98%20%EA%B0%9C%EC%88%98.py)
 ### Algorithm/tree/master/LeetCode
 + [283](https://github.com//innjuun/Algorithm/blob/master/LeetCode/283.py)
 + [test](https://github.com//innjuun/Algorithm/blob/master/LeetCode/test.py)
@@ -24,6 +41,7 @@
 + [112. Path Sum](https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/112.%20Path%20Sum.py)
 + [121](https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/121.py)
 + [136](https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/136.py)
++ [14. Longest Common Prefix](https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/14.%20Longest%20Common%20Prefix.py)
 + [1470 shuffle the array](https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/1470%20shuffle%20the%20array.py)
 + [155 min stack](https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/155%20min%20stack.py)
 + [169](https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/169.py)
@@ -36,8 +54,10 @@
 + [237](https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/237.py)
 + [278. First Bad Version](https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/278.%20First%20Bad%20Version.py)
 + [283](https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/283.py)
++ [326. Power of Three](https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/326.%20Power%20of%20Three.py)
 + [344](https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/344.py)
 + [374. Guess Number Higher or Lower](https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/374.%20Guess%20Number%20Higher%20or%20Lower.py)
++ [387. First Unique Character in a String](https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/387.%20First%20Unique%20Character%20in%20a%20String.py)
 + [53](https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/53.py)
 + [543](https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/543.py)
 + [617](https://github.com//innjuun/Algorithm/blob/master/LeetCode/easy/617.py)
@@ -53,6 +73,7 @@
 + [11. Container With Most Water](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/11.%20Container%20With%20Most%20Water.py)
 + [113. Path Sum II](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/113.%20Path%20Sum%20II.py)
 + [114. Flatten Binary Tree to Linked List](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/114.%20Flatten%20Binary%20Tree%20to%20Linked%20List.py)
++ [1143. Longest Common Subsequence](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/1143.%20Longest%20Common%20Subsequence.py)
 + [139. Word Break](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/139.%20Word%20Break.py)
 + [153. Find Minimum in Rotated Sorted Array](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.py)
 + [17. Letter Combinations of a Phone Number](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/17.%20Letter%20Combinations%20of%20a%20Phone%20Number.py)
@@ -64,6 +85,7 @@
 + [279. Perfect Squares](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/279.%20Perfect%20Squares.py)
 + [287. Find the Duplicate Number](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/287.%20Find%20the%20Duplicate%20Number.py)
 + [3](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/3.py)
++ [300. Longest Increasing Subsequence](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/300.%20Longest%20Increasing%20Subsequence.py)
 + [309. Best Time to Buy and Sell Stock with Cooldown](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/309.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown.py)
 + [33. Search in Rotated Sorted Array](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/33.%20Search%20in%20Rotated%20Sorted%20Array.py)
 + [337. House Robber III](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/337.%20House%20Robber%20III.py)
@@ -90,6 +112,7 @@
 + [763](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/763.py)
 + [78 subsets](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/78%20subsets.py)
 + [94 binary Tree Inorder Traversal](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/94%20binary%20Tree%20Inorder%20Traversal.py)
++ [96. Unique Binary Search Trees](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/96.%20Unique%20Binary%20Search%20Trees.py)
 + [test](https://github.com//innjuun/Algorithm/blob/master/LeetCode/medium/test.py)
 ### Algorithm/tree/master/Programmers
 + [124 나라의 숫자](https://github.com//innjuun/Algorithm/blob/master/Programmers/124%20%EB%82%98%EB%9D%BC%EC%9D%98%20%EC%88%AB%EC%9E%90.py)
@@ -110,6 +133,7 @@
 + [완주하지 못한 선수](https://github.com//innjuun/Algorithm/blob/master/Programmers/%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%20%EB%AA%BB%ED%95%9C%20%EC%84%A0%EC%88%98.py)
 + [위장](https://github.com//innjuun/Algorithm/blob/master/Programmers/%EC%9C%84%EC%9E%A5.py)
 + [전화번호 목록](https://github.com//innjuun/Algorithm/blob/master/Programmers/%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8%20%EB%AA%A9%EB%A1%9D.py)
++ [정수 삼각형](https://github.com//innjuun/Algorithm/blob/master/Programmers/%EC%A0%95%EC%88%98%20%EC%82%BC%EA%B0%81%ED%98%95.py)
 + [주식가격](https://github.com//innjuun/Algorithm/blob/master/Programmers/%EC%A3%BC%EC%8B%9D%EA%B0%80%EA%B2%A9.py)
 + [체육복](https://github.com//innjuun/Algorithm/blob/master/Programmers/%EC%B2%B4%EC%9C%A1%EB%B3%B5.py)
 + [카펫](https://github.com//innjuun/Algorithm/blob/master/Programmers/%EC%B9%B4%ED%8E%AB.py)
