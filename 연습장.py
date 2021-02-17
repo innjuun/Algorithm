@@ -1,14 +1,27 @@
-def replace(self, old, new):    # 클래스에 들어갈 메서드 정의
-    while old in self:
-        self[self.index(old)] = new
- 
-# list를 상속받음, 속성 desc, 메서드 replace 추가
-AdvancedList = type('AdvancedList', (list, ), { 'desc': '향상된 리스트', 'replace': replace })
- 
-x = AdvancedList([1, 2, 3, 1, 2, 3, 1, 2, 3])
-x.replace(1, 100)
-print(x)         # [100, 2, 3, 100, 2, 3, 100, 2, 3]
-print(x.desc)    # 향상된 리스트
-class 메타클래스이름(type):
-    def __new__(metacls, name, bases, namespace):
-        코드
+import asyncio
+
+@asyncio.coroutine
+def print_every_second_coroutine(type):
+    "Print seconds"
+    while True:
+        for i in range(10):
+            print(i, 's (corotine {})'.format(type))
+            yield from asyncio.sleep(1)
+        loop = asyncio.get_event_loop()
+        loop.stop()
+
+def print_every_seconds_callback(i):
+    print (i, 's (callback)')
+    loop = asyncio.get_event_loop()
+    loop.call_later(1.0, print_every_seconds_callback, i+1)
+
+def print_every_seconds_callback_to_coroutine():
+    asyncio.ensure_future(print_every_second_coroutine('B'))
+
+loop = asyncio.get_event_loop()
+loop.call_soon(print_every_seconds_callback, 0)
+loop.call_soon(print_every_seconds_callback_to_coroutine)
+asyncio.ensure_future(print_every_second_coroutine('A'))
+
+loop.run_forever()
+loop.close()
