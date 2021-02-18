@@ -1,8 +1,6 @@
 N, M = map(int, input().split())
 
-array = []
-for i in range(N):
-    array.insert(0, int(input()))
+array = reversed([int(input()) for _ in range(N)])
 
 
 while True:

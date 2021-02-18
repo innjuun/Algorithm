@@ -22,7 +22,7 @@ def crawler(url):
     with open("README.md", "a") as f:
 
         current_directory = url.split("innjuun/")[-1]
-        position = requests.utils.unquote(current_directory).split('master')[-1]
+        position = requests.utils.unquote(current_directory).split("master")[-1]
         f.write("### " + position + "\n")
         for link in py_files:
             unquoted_filename = requests.utils.unquote(
