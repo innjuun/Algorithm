@@ -3,9 +3,7 @@ first_status = x, y, d = map(int, input().split())
 
 grid = [list(map(int, input().split())) for _ in range(n)]
 check = [[0 for _ in range(m)] for _ in range(n)]
-check[x][y] = 1
 
-NORTH, EAST, SOUTH, WEST = 0, 1, 2, 3
 
 directions = [[-1, 0], [0, 1], [1, 0], [0, -1]]
 
