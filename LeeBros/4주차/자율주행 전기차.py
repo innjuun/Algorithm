@@ -138,16 +138,17 @@ def is_valid_road(i, j, visited):
 
 def bfs(i, j):
     visited = [[False for _ in range(n)] for _ in range(n)]
-    distances = deepcopy(grid)
+    distances = [[0 for _ in range(n)] for _ in range(n)]
     queue = deque()
+    visited[i][j] = True
     queue.append([i, j, 0])
     while queue:
         i, j, count = queue.popleft()
-        visited[i][j] = True
-        distances[i][j] = count
         for d in directions:
             next_i, next_j = i + d[0], j + d[1]
             if is_valid_road(next_i, next_j, visited):
+                visited[next_i][next_j] = True
+                distances[next_i][next_j] = count + 1
                 queue.append([next_i, next_j, count + 1])
     return visited, distances
 
@@ -155,7 +156,7 @@ def bfs(i, j):
 def pop_shortest_customer(distances):
     li = []
     for i, customer in enumerate(customer_list):
-        li.append([distances[customer[0][0]][customer[0][1]], customer[0][0], i])
+        li.append([distances[customer[0][0]][customer[0][1]], customer[0][0], customer[0][1], i])
 
     return customer_list.pop(sorted(li)[0][-1])
 
