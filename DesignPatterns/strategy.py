@@ -1,36 +1,62 @@
-from abc import ABCMeta
+from abc import ABC, ABCMeta
 
+# class SearchButton(metaclass=ABCMeta):
+#     def __init__
+#     def search(self):
+#         raise NotImplementedError()
 
-class MyProgram:
-    def __init__(self):
-        self._search_button = SearchButton()
+# class AllSearchButton(SearchButton):
+#     def search(self):
+#         print("search ALL")
+
+# class ImageSearchButton(SearchButton):
+#     def search(self):
+#         print("search Image")
+
+# class NewsSearchButton(SearchButton):
+#     def search(self): 
+#         print("search News")
         
-    def set_search_all(self):
-        self._search_button.set_search_strategy(SearchStrategyAll)
+# class MapSearchButton(SearchButton):
+#     def search(self):
+#         print("search Map")
         
-    def set_search_image(self):
-        self._search_button.set_search_strategy(SearchStrategyImage)
+
+# AllSearchButton().search()
+# NewsSearchButton().search()
+# MapSearchButton().search()
+        
+  
+# class MyProgram:
+#     def __init__(self):
+#         self._search_button = SearchButton()
+        
+#     def set_search_all(self):
+#         self._search_button.set_search_strategy(SearchStrategyAll)
+        
+#     def set_search_image(self):
+#         self._search_button.set_search_strategy(SearchStrategyImage)
                 
-    def set_search_news(self):
-        self._search_button.set_search_strategy(SearchStrategyNews)
+#     def set_search_news(self):
+#         self._search_button.set_search_strategy(SearchStrategyNews)
                 
-    def set_search_map(self):
-        self._search_button.set_search_strategy(SearchStrategyMap)
+#     def set_search_map(self):
+#         self._search_button.set_search_strategy(SearchStrategyMap)
         
-    def test_program(self):
-        self._search_button.on_click()
+#     def test_program(self):
+#         self._search_button.on_click()
         
-        self.set_search_all()
-        self._search_button.on_click()     
+#         self.set_search_all()
+#         self._search_button.on_click()     
            
-        self.set_search_image()
-        self._search_button.on_click()
+#         self.set_search_image()
+#         self._search_button.on_click()
         
-        self.set_search_news()
-        self._search_button.on_click()
+#         self.set_search_news()
+#         self._search_button.on_click()
 
-        self.set_search_map()
-        self._search_button.on_click()
+#         self.set_search_map()
+#         self._search_button.on_click()
         
         
 class SearchStrategy(metaclass=ABCMeta):
@@ -57,11 +83,28 @@ class SearchButton:
     def __init__(self):
         self.set_search_strategy(SearchStrategyAll)
     
-    def set_search_strategy(self, search_stragegy: SearchStrategy):
+    def set_search_strategy(self, search_stragegy: SearchStrategyz):
         self._search_stragy = search_stragegy()
         
     def on_click(self):
         self._search_stragy.search()
+        print("Button")
+        
+class SearchPopUp:
+    def __init__(self):
+        self.set_search_strategy(SearchStrategyAll)
+        
+    def set_search_strategy(self, search_stragegy: SearchStrategyz):
+        self._search_stragy = search_stragegy()
+        
+    def on_click(self):
+        self._search_stragy.search()
+        print("Popup")
         
           
-MyProgram().test_program()
+search_button = SearchButton()
+search_button.on_click()
+search_button.set_search_strategy(SearchStrategyImage)
+search_button.on_click()
+search_button.set_search_strategy(SearchStrategyMap)
+search_button.on_click()

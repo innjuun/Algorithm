@@ -1,16 +1,16 @@
-class Singleton:
+# class Singleton:
 
-    def __new__(cls):
-        if not hasattr(cls, '_instance'):
-            cls._instance = super(Singleton, cls).__new__(cls)
+#     def __new__(cls):
+#         if not hasattr(cls, '_instance'):
+#             cls._instance = super(Singleton, cls).__new__(cls)
 
-        return cls._instance
+#         return cls._instance
 
-s1 = Singleton()
-s2 = Singleton()
-print(s1 is s2)
-s1.a = "something"
-print(s2.a)
+# s1 = Singleton()
+# s2 = Singleton()
+# print(s1 is s2)
+# s1.a = "something"
+# print(s2.a)
 
 class MetaSingleton(type):
     _instances = {}
